@@ -1,0 +1,926 @@
+\part{Soluções Apresentadas}
+\label{sol}
+\chapter[Estruturas e Materiais]{Estruturas e Materiais}
+
+\section{Otimização da Planta}
+
+As soluções apresentadas para a parte estrutural do projeto são apenas sugestões, visto que as decisões efetivas devem ser feitas por um profissional de engenharia civil, de soluções para os problemas que o prédio UAC (Unidade Acadêmica) apresenta, cuja a planta baixa foi usada para a análise dos problemas, visando uma estrutura que aproveite melhor os recursos naturais e seja mais sustentável.
+Similarmente, para realizar este projeto, foi necessária uma adaptação de elementos relativos a automação predial à um projeto de construção civil comum com integração do sistema Smart Grid, dando ênfase na sustentabilidade. Um sistema de automação pode ser centralizado ou distribuído. Os centralizados são aqueles que utilizam uma seção especificamente para o controle dos dispositivos, tanto para receber quanto enviar sinais. Os sistemas distribuídos são considerados descentralizados porque utilizam de diversos dispositivos, cada um com uma função específica dentro do sistema, sendo distribuídos por toda instalação e interligados por uma rede (DIAS, 2004).
+Considerando que a rede de automação a ser implementada possui um sistema centralizado, viu-se a necessidade de um local específico para controlar e monitorar o sistema. Já para promover a integração do Smart Grid ao projeto, foi constatado que o melhor ponto para a instalação das placas fotovoltaicas seria no telhado, onde há maior contato com sol, menor projeção de sombras e resguardado de contato de animais e pessoas. Quanto à posição da placa, esta deverá estar voltada para o norte.
+A função das salas foi baseada na necessidade do prédio, a qual consta adicionar mais salas de aula e de laboratório no campus. Dada a quantidade de alunos que ingressam todo semestre, somente os prédios atuais não são capazes de atender a demanda, são providas cerca de 140 vagas pelo Vestibular da Universidade de Brasília e pelo ENEM, com a pouca quantidade de formaturas por semestre, o campus está sobrecarregado.
+Além disso, vê-se a necessidade de aprimorar o currículo dos cursos da Faculdade do Gama. Para isto, seria primordial a contratação de novos professores, porém com a falta de estrutura atual não seria praticável, portanto com a construção do prédio inteligente, além de sanar o problema da falta de espaço, este projeto vai progredir o campus no sentido educacional.
+Considerando a efetiva carência foi estabelecido que as salas do pavimento inferior serão designadas para laboratórios, enquanto as do pavimento superior cumprirão função de salas de aulas. Haverá adicionalmente uma sala de estudos no lugar que se dispõe a biblioteca do prédio atual de salas e no lugar da secretaria, no prédio inteligente constará a sala de controle. O pavimento superior também contará com um espaço para Xerox e ao lado, mais salas.
+A definição das finalidades de cada sala foi feita com o auxílio da planta disponibilizada pela própria Universidade. Além disso, a planta foi usada para a produção de um modelo 3D como uma forma complementar da representação do prédio. Para isso, foram considerados alguns softwares como: “AutoCad”, “SketchUp” e o “Revit”.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.3]{figuras/planta_inf_estruturas.eps}
+  \caption{Planta Baixa com finalidade das salas - Piso Inferior.}
+  \label{fig:planta_inf_estruturas}
+\end{figure}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.3]{figuras/planta_sup_estruturas.eps}
+  \caption{Planta Baixa com finalidade das salas - Piso Superior.}
+  \label{fig:planta_sup_estruturas}
+\end{figure}
+
+Em relação ao “SketchUp” é levado em conta a facilidade na utilização do programa, e o fato de sua biblioteca online de modelagem de interiores ser bem completa. Quanto ao Revit, é um programa que tem melhor aplicação para modelagens arquitetônicas, hidráulicas e elétricas. O AutoCAD é semelhante ao Revit, porém é necessário que as etapas do desenho sejam feitas separadamente. Para definir qual será utilizado, será levado em consideração o programa que suprir as necessidades do projeto da melhor forma. Serão analisados quesitos como facilidade de aquisição, facilidade de utilização, biblioteca, melhores ferramentas. Dessa forma, o “AutoCad” mostrou-se como melhor opção por conta da facilidade para se achar tutoriais e materiais que ensinam a usar o programa de forma bem eficiente.
+O motivo para a realização da modelagem 3D do prédio é a facilidade de ver como será o prédio após a sua construção.Além de facilitar a visualização de qualquer problema que tenha passado despercebido na planta. Também facilita prever como as pessoas passarão pelo prédio e como também elas poderão se acomodar dentro do mesmo. Um desenho em duas dimensões não é capaz de passar a quantidade de informações que um modelo em três dimensões passa para seu observador.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.3]{figuras/planta_3d_estruturas.eps}
+  \caption{Modelagem 3D- Pisos inferior e superior da esquerda para direita}
+  \label{fig:planta_3d_estruturas}
+\end{figure}
+
+Um dos problemas mais latentes observado pelos usuários do prédio é a temperatura elevada que permanece nas salas, o que causa grande desconforto para os mesmo. Para encontrar uma solução, foi analisado a relação da incidência solar com posicionamento do prédio. Dessa forma, por meio do programa SOL-AR 6.2 fornecido pela UFSC, foi possível obter a carta solar de Brasília para análise do melhor posicionamento do novo prédio do campus da FGA.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.3]{figuras/carta_solar.eps}
+  \caption{Carta Solar de Brasília: até junho e após junho respectivamente.}
+  \label{fig:carta_solar}
+\end{figure}
+
+O resultado da carta solar é um par de eixos ordenado com o eixo das abcissas representando a hora do dia variando de 6 às 18 e o eixo das ordenadas representa os dias do ano e cada ponta desse par de eixos representa uma direção geográfica (Norte, Sul, Leste e Oeste) e a partir do sistema de cores é possível fazer o estudo da região. Analisando os resultados obtidos nota-se que o Leste apresenta uma radiação mais amena do que a Oeste que conta com grande irradiação solar, ou seja, maior temperatura ao longo do dia. Como as salas de aula são lugares de longa permanência o ideal é que elas fiquem voltadas ao Leste devido a temperatura se manter mais amena ao longo do dia.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.45]{figuras/posicao.eps}
+  \caption{Posicionamento do Prédio Inteligente.}
+  \label{fig:posicao}
+\end{figure}
+
+Porém como o Sol nasce ao leste seu reflexo poderia atrapalhar o rendimento das aulas. Problema esse que pode ser resolvido com o bom posicionamento de brises para diminuir a incidência solar dentro da sala de aula. Essas estruturas já existem no prédio atual, mas poderiam ser substituídos pelo brise que acompanha o trajeto solar.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/briseiros.eps}
+  \caption{Exemplos de briseiros.}
+  \label{fig:briseiros}
+\end{figure}
+
+Outro problema que aflige a estrutura é a poeira proveniente dos arredores do campus, problema este que também pode ser amenizado com os brises mencionados anteriormente e também com uso de cobogós e jardins verticais. Porém, com exceção do jardim vertical, os brises e cobogós já foram implementados no prédio atual. Dessa forma, cabe fazer a análise de jardins verticais como recurso para amenizar o problema.
+O ar do Gama é muito seco o que favorece a permanência da poeira no ar, além de secar as vias respiratórias. Dessa forma o controle da umidade é essencial para mitigar o problema da poeira no campus. Algumas soluções podem ser tomadas para aumentar a umidade ar como a arborização no campus e uso de jardins verticais. Estas foram escolhidas para o projeto pois apresentam certas vantagens como descrito nas tabelas (Tabela 1 e 2). As desvantagens do jardim vertical em geral são devidas a problemas de projeto e plantio. A água para irrigação das árvores e dos jardins poderá ser proveniente do poço já existente que abastece o campus ou também por um reservatório que reaproveita água da chuva. Para o último, o dimensionamento dependerá de diversos fatores que vão além do escopo deste projeto como: tipo de irrigação e vazão do mecanismo, espécie de planta a ser usada e litros/dia de água que esses recursos vão necessitar, além da análise de temporadas de chuvas na região do DF.
+
+\begin{table}[]
+\centering
+\caption{Vantagens e desvantagens de arbustos e jardins verticais.}
+\label{my-label}
+\begin{tabular}{|l|l|l|l}
+\textbf{}             & \parbox[t]{4cm}{Arbustos}                                                                                                                                                          & \parbox[t]{4cm}{Jardins Verticais}                                                                                                                                                                               \\
+\textbf{Vantagens}    & \begin{tabular}[c]{@{}l@{}} \parbox[t]{4cm}{Redução do sol;}\\ \parbox[t]{4cm}{Maior conforto térmico;}\\ \parbox[t]{4cm}{Aumento da umidade relativa do ar;}\\ \parbox[t]{4cm}{Redução da poluição;}\\ \parbox[t]{4cm}{Atenuação sonora;}\end{tabular} & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Diminui a temperatura no interior da edificação;}\\ \parbox[t]{4cm}{Controle da umidade;Proteção da alvenaria;}\\ \parbox[t]{4cm}{Baixa manutenção;}\\ \parbox[t]{4cm}{Redução de poeira;}\\ \parbox[t]{4cm}{Embelezamento;}\end{tabular} \\
+\textbf{Desvantagens} & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Problema com rede elétrica ou telefônica;}\\ \parbox[t]{4cm}{Sujeira provocada por pássaros;}\end{tabular}                                               & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Relativas à problemas na implantação do jardim;}\\ \parbox[t]{4cm}{Manutenção inapropriada}\end{tabular}
+\end{tabular}
+\end{table}
+
+Por conta da poeira e do mal posicionamento do prédio, não há boa climatização nas salas. Para solucionar esse problema é proposto que se implemente ar-condicionados nas salas e laboratórios, pois, apesar de não ser uma alternativa muito ecológica, mostrou se mais apropriado para atender as demandas térmicas dos aparelhos eletrônicos e dos usuários do campus, pois permite um controle maior sobre a climatização.
+
+\begin{table}[]
+\centering
+\caption{Vantagens e desvantagens do ar-condicionado, ventilador e umidificador
+.}
+\label{my-label}
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{}             & \parbox[t]{4cm}{Ar-condicionado}                                                                                                                                                                                                                                                                      & \parbox[t]{4cm}{Ventilador}                                                                                                                                     & \parbox[t]{4cm}{Umidificador}                                                                                                                                                                                           \\ \hline
+\textbf{Vantagens}    & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Controle de temperatura;}\\ \parbox[t]{4cm}{Evita a entrada de poeira devido ao fechamento das janelas e portas;}\\ \parbox[t]{4cm}{Ambiente arejado;Melhora o ar em ambientes fechados(“limpa”);}\\ \parbox[t]{4cm}{Reduz o estresse térmico sobre aparelhos eletrônicos os como computadores;}\end{tabular} & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Mais econômico comparado ao ar condicionado;}\\ \parbox[t]{4cm}{Baixo custo;}\\ \parbox[t]{4cm}{Grande variedade de modelos;}\\ \parbox[t]{4cm}{Portátil;}\end{tabular} & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Consumo energético menor;}\\ \parbox[t]{4cm}{Funciona em locais abertos;}\\ \parbox[t]{4cm}{Ideais para locais secos e frios;}\\ \parbox[t]{4cm}{Leve e compacto;}\\ \parbox[t]{4cm}{Mais em conta que um ar condicionado;}\end{tabular}         \\ \hline
+\textbf{Desvantagens} & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Ambiente ressecado (ruim para quem tem rinite, bronquite e sinusite);}\\ \parbox[t]{4cm}{Instalação trabalhosa;}\\ \parbox[t]{4cm}{Preço;}\\ \parbox[t]{4cm}{Consumo energético e Impacto ambiental;}\end{tabular}                                                                                            & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Espalha partículas;}\\ \parbox[t]{4cm}{Direciona o vento para um único ponto;}\\ \parbox[t]{4cm}{Não umidifica o ar;}\end{tabular}                     & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Não resfria ambientes muito quentes, apenas umidifica e ventila o local;}\\ \parbox[t]{4cm}{Menos eficiente que um ar condicionado, pois não funciona bem em qualquer ambiente;}\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection{Organização Interna}
+
+Um dos problemas que o atual prédio de salas de aula da FGA enfrenta é o mau posicionamento dos quadros. Em muitas salas o quadro está muito alto forçando o professor a usar um tablado para alcançar o mesmo e em outras salas está tão baixo que é necessário que o professor só use da metade para cima. Segundo (MORO, 2005) o mobiliário da sala de aula como outros fatores físicos ,são grandes influenciadores no desempenho, segurança, conforto e comportamento dos alunos. Assim (LUZ et al., 2005) afirma que um quadro mal posicionado pode ocasionar o esgotamento dos pequenos músculos ligados aos globos oculares,podendo causar tensão e desconforto em graus mais avançados.
+Desta forma podemos também fazer um comparativo com a posição dos projetores. Muitas vezes quando o professor utiliza o powerpoint, a imagem projetada apresenta baixa nitidez devido a luminosidade que entra pelas janelas e muitas vezes há complicações para enxergar uma parte da imagem que fica entre o quadro e a parede. Outro agravante é a necessidade de subir em carteiras para ligar e desligar esses equipamentos, o que pode comprometer a segurança dos usuários.
+Para a questão da projeção da imagem, a solução consiste em colocar a lona de projeção e o projetor em um local da sala cuja luminosidade proveniente das janelas não atrapalhe a imagem projetada. Já para ligar o dispositivo, a solução deste problema é a extensão do mecanismo que liga e desliga o projetor para um local próximo ao professor, onde ficam os cabos que conectam o projetor ao computador.
+Em grande parte das salas de aula as turmas são muito grandes, então os alunos que escolhem um assento no fundo da sala tem uma dificuldade para enxergar o quadro. A solução para esse problema é a construção de um tablado de madeira com vários níveis similar a um anfiteatro, mas adaptado para as dimensões da sala. Dessa forma, as cadeiras continuarão em sua forma matricial porém, em salas grandes como a Superior 1, o tablado deve surgir a partir da 6ª fileira com degraus de 1 metro de comprimento e 13 centímetros de altura.
+Devido ao crescente uso de recursos tecnológicos em sala de aula, tomadas são essenciais. Porém, a localização das tomadas, no fundo e laterais da sala força o aluno que precisa destas, escolher um assento no fundo da sala dificultando sua visão do quadro e do projetor. Para solucionar o problema pode-se incorporar a solução de outro mencionado mais acima. As tomadas podem ser incorporadas ao tablado que será construído para se colocar as carteiras. Assim, pode-se colocar uma tomada perto de cada carteira, aumentando as opções de escolha do lugar onde o alunos deseja se sentar e também a acessibilidade a este recurso.
+Quanto a acústica, que também é problemática em salas maiores, deverá ser feita a instalação de caixas de som e disponibilização de microfones para os professores. Propõe-se que as caixas de som devam ser instaladas acima do quadro da sala de aula e estará a disposição do professor um microfone para que ele possa ser ouvido por toda a sala.
+Por fim, a climatização da sala, que de acordo com o questionário respondido pelos alunos, é um dos problemas mais agravantes na sala de aula, juntamente com a poeira, é atualmente feita apenas por intermédio de janelas. Apesar de não ser uma solução muito ecológica, a melhor opção para amenizar esse problema é o uso de ar condicionados. Que serão posicionados ou no fundo da sala ou na lateral oposta às janelas,dependendo do formato ou da localização da sala.
+
+\subsection{Materiais}
+
+Assim como foi feito nos tópicos anteriores, as propostas de soluções para o uso de materiais diferenciados na construção do Prédio Inteligente são apenas sugestões, visto que os autores do projeto não possuem capacidade para decidir entre um material e outro efetivamente.
+O conhecimento das propriedades dos materiais auxilia na sua correta seleção para os diversos usos, na determinação das suas propriedades e qualidades tecnológicas, proporciona a escolha de fatores de segurança adequados e vários outros fatores que que irão influir de maneira decisiva na parte econômica de um projeto.
+A partir disso nota-se que é fundamental a seleção de materiais que serão utilizados no projeto. Uma metodologia comumente usada para a seleção de materiais na fase inicial é a Metodologia de Pugh. Essa metodologia consiste em comparar os diversos conceitos de produto com que se pretende trabalhar com um conceito de referência facilitando a escolha de um conceito que se sobressaia.
+É feita então, uma análise das vantagens (ou pontos positivos), desvantagens (ou pontos negativos) e equivalência dos conceitos propostos em relação ao conceito de referência. Esta técnica possibilita a escolha do melhor conceito, chamado de conceito “vencedor”, a ser adotado para o produto.
+A seguir, tem-se o comparativo entre as características dos materiais que embora comumente utilizados, foram descartados do projeto e os materiais que foram escolhidos para suprir uma maior cota de requisitos de um prédio inteligente e sustentável.
+
+\begin{table}[]
+\centering
+\caption{Materiais usados comumente em prédios.}
+\label{my-label}
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{}               & \parbox[t]{4cm}{Concreto Armado}                                                                                                                                                                                                                                                                                                                                                                                                                                                        & \parbox[t]{4cm}{Esquadrias de Alumínio}                                                                                                                                                                                                                                          \\ \hline
+\textbf{Aplicabilidade} & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Piso;}\\ \parbox[t]{4cm}{Pavimento;}\\ \parbox[t]{4cm}{Fundação;}\\ \parbox[t]{4cm}{Estrutura;}\\ \parbox[t]{4cm}{Alvenaria;}\\ \parbox[t]{4cm}{Cobertura.}\end{tabular}                                                                                                                                                                                                                                                                                                                                                          & \parbox[t]{4cm}{Esquadrias de portas e janelas;}                                                                                                                                                                                                                                 \\ \hline
+\textbf{Vantagens}      & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Elevada resistência à compressão;}\\ \parbox[t]{4cm}{Pode suportar uma boa quantidade de esforços de tração;}\\ \parbox[t]{4cm}{O custo de manutenção baixo;}\\ \parbox[t]{4cm}{Pode ser moldada de diversas maneiras e formatos;}\\ \parbox[t]{4cm}{Exige mão de obra menos qualificada para sua execução;}\\ \parbox[t]{4cm}{Boa resistência ao fogo e ao tempo.}\end{tabular}                                                                                                                                                  & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Resistência à corrosão do tempo e da maresia;}\\ \parbox[t]{4cm}{São versáteis e bonitas esteticamente;}\\ \parbox[t]{4cm}{O alumínio ainda é de fácil limpeza e oferece ótima vedação à água e ar;}\\ \parbox[t]{4cm}{É leve, o que facilita sua instalação e transporte.}\end{tabular} \\ \hline
+Desvantagens            & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{A resistência à tração do concreto armado é cerca de um décimo da sua resistência à compressão;}\\ \parbox[t]{4cm}{Por ser muitas vezes produzido in loco, a resistência final do concreto pode ser afetada devido a erros durante os processos de mistura e cura;}\\ \parbox[t]{4cm}{O concreto armado utiliza-se de formas de madeira ou metálicas, encarecendo o projeto;Gera muitos resíduos e lixos de construção;}\\ \parbox[t]{4cm}{Tem grande peso próprio (2.500 kg/m3).}\end{tabular} & \parbox[t]{4cm}{Baixo isolamento térmico. Alguns fabricantes adicionam outros materiais na fabricação de produtos em alumínio para reduzir esse problema, que precisa ser compensado com climatizadores de ambientes.} \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\centering
+\caption{Vantagens e desvantagens dos materiais sugeridos 1.}
+\label{my-label}
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{}               & \parbox[t]{4cm}{Cimento de alto Desempenho(CAD)}                                                                                                                                                                                                                                                                                                                                                                                                                   & \parbox[t]{4cm}{Estruturas de Aço}                                                                                                                                                                                                                                                                                                                                                                                     \\ \hline
+\textbf{Aplicabilidade} & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Piso de alta resistência;}\\ \parbox[t]{4cm}{Pavimento;}\\ \parbox[t]{4cm}{Fundação;}\end{tabular}                                                                                                                                                                                                                                                                                                                                                        & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Supraestrutura;}\\ \parbox[t]{4cm}{Vigas;}\\ \parbox[t]{4cm}{Armaduras para concreto;}\end{tabular}                                                                                                                                                                                                                                                                                                           \\ \hline
+\textbf{Vantagens}      & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Aumento da capacidade resistente dos elementos estruturais;}\\ \parbox[t]{4cm}{Redução do peso próprio;}\\ \parbox[t]{4cm}{Redução da força na fundação;Possibilidade de redução de custos;}\\ \parbox[t]{4cm}{Menor fluência que os concretos de baixa resistência;}\\ \parbox[t]{4cm}{Baixa permeabilidade;}\end{tabular}                                                                                                                                                                 & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Prazos curtos: rápido tempo de fabricação e montagem;}\\ \parbox[t]{4cm}{Racionalização de material e mão-de-obra;}\\ \parbox[t]{4cm}{Obra limpa e organizada;}\\ \parbox[t]{4cm}{Flexibilidade de reformas;}\\ \parbox[t]{4cm}{Maior área útil e distância entre vãos;}\\ \parbox[t]{4cm}{Possibilidade de reciclagem.}\end{tabular}                                                                                                                            \\ \hline
+Desvantagens            & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Rigoroso controle de qualidade em todas as etapas de produção do concreto. Este fator praticamente obriga que concretos desse tipo sejam executados por concreteiras, desencorajando a produção no canteiro de obras;}\\ \parbox[t]{4cm}{Desconhecimento, pela maioria dos projetistas, das características, propriedades e metodologia de cálculo do concreto de alta resistência.Ruptura frágil do material (sem aviso).}\end{tabular} & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Risco de custos maiores: se o projeto não levar em conta todos os itens da construção, o preço pode ser de 5 a 20\% maior se comparado ao processo tradicional;}\\ \parbox[t]{4cm}{Dificuldade de transporte;}\\ \parbox[t]{4cm}{Necessidade de amarração: a estrutura de aço necessita de perfis complementares para se unir às superfícies de fechamento;}\\ \parbox[t]{4cm}{Contração e dilatação constantes;}\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\centering
+\caption{Vantagens e desvantagens dos materiais sugeridos 2.}
+\label{my-label}
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{}               & \parbox[t]{4cm}{Esquadrias de PVC}                                                                                                                                                                                                                                                                                                       & \parbox[t]{4cm}{Tintas Ecológicas}                                                                                                                                                                                                                                                                                                                                                                                                             \\ \hline
+\textbf{Aplicabilidade} & \parbox[t]{4cm}{Esquadrias de portas e janelas;}                                                                                                                                                                                                                                                                                         & \parbox[t]{4cm}{Acabamentos externos e internos.}                                                                                                                                                                                                                                                                                                                                                                                              \\ \hline
+\textbf{Vantagens}      & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Possuem excelente desempenho térmico e acústico;}\\ \parbox[t]{4cm}{São leves;}\\ \parbox[t]{4cm}{Não exigem qualquer tipo de manutenção além de limpeza periódica;}\\ \parbox[t]{4cm}{Apresentam alta qualidade, resistência e durabilidade;}\\ \parbox[t]{4cm}{Garante grande estabilidade dimensional;}\\ \parbox[t]{4cm}{Alto índice de vedação e estanqueidade;}\end{tabular} & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Alta qualidade e baixo odor;}\\ \parbox[t]{4cm}{Boa funcionalidade na cobertura e aderência de superfícies em alvenaria, reboco, amianto, divisórias, forro, madeira, gesso e massa corrida;}\\ \parbox[t]{4cm}{Variadas opções de cores e pode ser aplicada em ambientes internos e externos;}\\ \parbox[t]{4cm}{Não agridem o meio ambiente;}\\ \parbox[t]{4cm}{Não oferecem risco a saúde do aplicador e nem do usuário da área que recebeu a pintura.}\end{tabular} \\ \hline
+Desvantagens            & \begin{tabular}[c]{@{}l@{}}\parbox[t]{4cm}{Tem um custo maior devido a sua qualidade e estrutura diferenciada;}\\ \parbox[t]{4cm}{São mais sensíveis ao sol que as esquadrias de alumínio.}\end{tabular}                                                                                                                                                  & \parbox[t]{4cm}{Tem um custo maior:10 a 20\% mais caras que as tintas tradicionais;} \\ \hline
+\end{tabular}
+\end{table}
+
+Para a cobertura, uma alternativa moderna e econômica são as lajes nervuradas. Podem ser feitas com concreto ecológico e sua forma geométrica reduz o consumo de aço e concreto em até 30\%, diminuído também o peso total da estrutura.
+Com o recente senso de responsabilidade ecológica e a aplicação dos conceitos de sustentabilidade na construção civil, diversos materiais estão sendo desenvolvidos buscando ser mais eficientes e menos agressivos ao ambiente. No entanto, poucas opções estão disponíveis no mercado ou são produzidos em larga escala, o que torna esses materiais inviáveis ao projeto. Dessa maneira em alguns casos, ainda que existam soluções mais tecnológicas e avançadas, foi necessário se ater a materiais que favorecem disponibilidade, custo e fácil manuseio.
+
+
+\chapter[Smart Grid]{Smart Grid}
+
+\section{Energia Solar}
+Inicialmente, para o suprimento de energia do projeto considerou-se três fontes de geração de energia à ser utilizado, sendo elas: Eólica, Gerador movido a biodiesel e a Solar fotovoltaica. A partir daí fez-se um levantamento das vantagens e desvantagens de cada fonte de energia, como pode-se ver nas tabelas ~\ref{table_eolica}, ~\ref{table_solar} e ~\ref{table_biodiesel}.
+
+\begin{table}[h]
+  \centering
+  \caption{Energia Eólica - Vantagens x Desvantagens}
+  \label{table_eolica}
+  \begin{tabular}{|l|l|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Energia Eólica}}                                         \\ \hline
+    \multicolumn{1}{|c|}{\textbf{Vantagens}} & \multicolumn{1}{c|}{\textbf{Desvantagens}} \\ \hline
+    Energia Sustentável                      & Alto Custo                                 \\ \hline
+    Energia Limpa                            & Baixa velocidade do vento na região        \\ \hline
+    Energia Renovável                        & Pouca Área para instalação dos equipamento \\ \hline
+  \end{tabular}
+\end{table}
+
+\begin{table}[h]
+  \centering
+  \caption{Energia Solar Fotovoltaica - Vantagens x Desvantagens}
+  \label{table_solar}
+  \begin{tabular}{|l|c|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Energia Solar Fotovoltaica}}                                                \\ \hline
+    \multicolumn{1}{|c|}{\textbf{Vantagens}}             & \textbf{Desvantagens}                             \\ \hline
+    Energia Sustentável                                  & \multicolumn{1}{l|}{Alto custo financeiro}        \\ \hline
+    Energia limpa                                        & \multicolumn{1}{l|}{Geração apenas durante o dia} \\ \hline
+    Simples manutenção                                   & -                                                 \\ \hline
+    Alta incidência solar na região                      & -                                                 \\ \hline
+    Vida útil dos painéis longa                          & -                                                 \\ \hline
+    Tempo de retorno do investimento em cerca de 10 anos & -                                                 \\ \hline
+  \end{tabular}
+\end{table}
+
+
+\begin{table}[h]
+  \centering
+  \caption{Gerador Movido a Biodiesel - Vantagens x Desvantagens}
+  \label{table_biodiesel}
+  \begin{tabular}{|c|l|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Gerador Movido a Biodiesel}}                                            \\ \hline
+    \textbf{Vantagens}                                      & \multicolumn{1}{c|}{\textbf{Desvantagens}} \\ \hline
+    \multicolumn{1}{|l|}{Energia Sustentável}               & Alto consumo de biodiesel                  \\ \hline
+    \multicolumn{1}{|l|}{Biocombustível produzido pela FGA} & Rendimento baixo                           \\ \hline
+    -                                                       & Alto custo financeiro                      \\ \hline
+    -                                                       & Manutenção periódica                       \\ \hline
+  \end{tabular}
+\end{table}
+
+Escolheu-se a geração de energia solar fotovoltaica para suprir a demanda do prédio. Como fonte secundária escolheu-se o gerador, sendo este utilizado somente em momento de emergência, visto que as desvantagens do mesmo superam quando utilizado em um período longo de produção.
+
+O Prédio Sustentável e Inteligente necessita das integrações entre as áreas para que o mesmo tenha êxito em oferecer para os estudantes e funcionários um melhor ambiente. Dessa forma, houve uma integração entre as frentes de estrutura (responsável pela parte estrutural e escolha de materiais do projeto) e de Smart Grid (responsável pelo suprimento da demanda energética da FGA) para decisão do melhor local para a instalação da micro-usina solar fotovoltaica. Surgiram-se três opções: nas paredes, nos telhados e na parte terrestre. Porém, estabeleceu-se que a instalação se daria no telhado do prédio, visto que o mesmo possui uma grande área inerte que se tornaria funcional. Outro ponto é a incidência solar que é significativamente maior na parte superior do prédio, pois não há sombreamento devido a algum obstáculo.
+
+Já nas opções descartadas, verificou-se a dificuldade de manutenção quando colocadas nas paredes e no local terrestre, a maior desvantagem seria o uso de uma grande área e também a existência  de uma grande quantidade de animais selvagens no local, visto que a FGA está localizada em uma região em que o cerrado é predominante.
+
+Com a fonte de geração de energia determinada, bem como o local da instalação da micro-usina solar fotovoltaica, fez-se uma estimativa de consumo de energia (Wh) baseada na demanda já requerida pelo prédio atual, com o  objetivo de definir a potência instalada da micro-usina.
+
+Mesmo com a existência de muitas variáveis desconhecidas, que impactam negativamente no valor estimado, os dados conhecidos foram suficiente para estimar a potência instalada, bem como a quantidade de módulos fotovoltaicos necessários para suprir a demanda energética do novo prédio. Ao se fazer essa estimativa com a demanda do prédio já existente têm-se  alta possibilidade de produzir-se uma maior quantidade de energia do que a realmente necessária, visto que os equipamentos elétricos e eletrônicos selecionados pelo subgrupo de instrumentação, são altamente eficientes energeticamente.
+
+Para relembrar o efeito fotovoltaico é resultado da interação da luz com os materiais semicondutores (o mais usado é o silício, pois tem em grande quantidade na natureza) de uma célula fotovoltaica. No interior desta, tal efeito é o responsável pela transformação de energia solar em energia elétrica. A luz solar é composta por fótons que quando incididos no material semicondutor parte deles são absorvidos, excitando os elétrons do material, gerando assim um fluxo de elétrons (corrente). \cite{ideal}
+
+A geração de energia elétrica a partir de placas fotovoltaica é um método bastante difundido atualmente e vem crescendo constantemente. As células solares captam a radiação do sol e através dos fótons geram corrente contínua. Essa corrente passa por um inversor para que seja convertida em corrente alternada com as características da rede (senoidal e frequência de 60Hz). Após passar pelo inversor a eletricidade poderá ser usada para o consumo. Caso a geração exceda o consumo, o restante é inserido na rede e caso o consumo seja maior que a geração solar o restante da energia consumida é oriunda da rede elétrica.
+
+Para a realização da estimativa de consumo de energia, escolheu-se como variáveis: as lâmpadas, computadores e ar-condicionados. As mesmas foram escolhidas visto à facilidade de dimensioná-las. Também estabeleceu-se algumas premissas, como: período de funcionamento das variáveis de 10 horas, ou seja, no período onde possui maior fluxo de pessoas e desconsiderou-se a quantidade de equipamentos não operantes. Essas premissas foram tomadas devido à grande margem de erro que se tem. A seguir, as tabelas ~\ref{fig:lampadas}, ~\ref{fig:computadores} e ~\ref{fig:ar_condicionados} mostram a potência e horário de funcionamento de cada equipamento, bem como a energia consumida por cada um.
+Onde:
+
+\centerline{Qtd= quantidade}
+\centerline{[W]=Watts}
+\centerline{[h]=hora}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.3]{figuras/lampadas.eps}
+  \caption{Dimensionamento do consumo de energia das lâmpadas}
+  \label{fig:lampadas}
+\end{figure}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.3]{figuras/computadores.eps}
+  \caption{Dimensionamento do consumo de energia dos computadores}
+  \label{fig:computadores}
+\end{figure}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.3]{figuras/ar_condicionados.eps}
+  \caption{Dimensionamento do consumo de energia dos ar-condicionados.}
+  \label{fig:ar_condicionados}
+\end{figure}
+
+Em seguida, somou-se o consumo de todos os componentes e obteve-se o consumo total de energia por dia no valor de 1.051,12 KWh/dia. Para o cálculo do consumo mensal, considerou-se um total de 22 dias úteis  e, portanto, um consumo mensal de 23.124,64 KWh/mês.
+Obtido o resultado do consumo de energia fez-se uma simulação no software SAM (System Advisor Model) para a realização do dimensionamento do sistema fotovoltaico. Primeiramente, entrou-se com a localização no programa de modo que o mesmo através da latitude e longitude determinasse a incidência solar. Em seguida, escolheu-se o painel solar a ser utilizado (Painel solar da marca Canadian de 255 Wp, eficiência de 16,44\% e 1638x982x40 mm), como pode-se ver na Figura ~\ref{fig:placa}, e escolheu-se o inversor da marca ABB de 50KW.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.8]{figuras/placa.eps}
+  \caption{Placa solar marca Canadian.}
+  \label{fig:placa}
+\end{figure}
+
+O Gráfico ~\ref{fig:smartgrid1} a eficiência do inversor com a porcentagem de Potência nominal de saída.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/smartgrid1.eps}
+  \caption{Dados do inversor escolhido.}
+  \label{fig:smartgrid1}
+\end{figure}
+
+Já o gráfico ~\ref{fig:smartgrid2} relaciona a corrente do módulo fotovoltaico com a voltagem do módulo ou seja quanto maior a voltagem menor a corrente elétrica.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.4]{figuras/smartgrid2.eps}
+  \caption{ Dados do módulo fotovoltaico.}
+  \label{fig:smartgrid2}
+\end{figure}
+
+Após a escolha do inversor cuja função é converter a corrente contínua gerada pelas placas em corrente alternada, com frequência de 60hz e do painel solar, entrou-se com o valor de potência desejada (116,952KW) e o programa calculou a quantidade necessária de painéis igual a 456. O mesmo também calculou a quantidade necessária de inversores igual a 2 e a área total ocupada pelos painéis solares igual a 706,3 m2, como pode-se ver na Figura ~\ref{fig:estimativa_paineis}. Essa área corresponde somente ao total de painéis solares, sabe-se que para a instalação da micro-usina uma área maior é necessária, pois existem outros fatores que ocupam espaço, como: suporte dos painéis, espaçamento entre as fileiras dos mesmos de modo que uma fileira não faça sombra nas outra, espaço para pessoas caminharem para a realização de manutenção e limpeza dentre outros fatores.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/estimativa_paineis.eps}
+  \caption{Dimensionamento do sistema.}
+  \label{fig:estimativa_paineis}
+\end{figure}
+
+\subsection{Normas da CEB}
+
+O Sistema de Geração distribuída é utilizado por geradores de pequeno porte com geração a partir de fontes renováveis. No projeto do Prédio Sustentável da FGA será utilizado a minigeração distribuída a partir de fontes fotovoltaicas.
+De acordo com os regulamentos da ANEEL a microgeração distribuída pode ser definida como centrais geradoras que utilizam fontes renováveis de energia com uma potência instalada superior a 75 kW e menor ou igual a 5 MW. A Resolução Normativa nº 482/2012 estabelece o sistema de Compensação de Energia Elétrica, que autoriza que a energia excedente gerada pela microgeração distribuída seja injetada na rede da distribuidora para suprir o consumo do prédio. Quando a energia injetada na rede for maior que a energia produzida é gerado um crédito para o consumidor, que pode ser abatido em tarifas posteriores do mesmo, quando a energia injetada for inferior à consumida a unidade consumidora é abastecida pela concessionária local.
+A concessionária que abrange este projeto é a Companhia Energética de Brasília (CEB). Esta estabelece uma resolução normativa \cite{ntd609} que deverá ser seguida para instalação e execução de um projeto de geração distribuída.
+Os procedimentos de acesso estão detalhados no módulo 3 dos Procedimentos de Distribuição (PRODIST). Consistem nas várias etapas necessárias para a obtenção de acesso ao sistema de distribuição.. Para a viabilização do acesso ao sistema elétrico é necessário o cumprimento das etapas de solicitação de acesso e parecer de acesso. Essas etapas são apresentadas de forma sucinta na figura ~\ref{fig:fluxograma}.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/fluxograma_smartgrid.eps}
+  \caption{Etapas de acesso de Microgeradores ao Sistema de Distribuição da CEB-D.}
+  \label{fig:fluxograma}
+\end{figure}
+
+A solicitação é formalizada através de formulário específico, conforme potência instalada  a ser encaminhado obrigatoriamente à CEB-D pelo acessante que se propõe a interligar sistemas de microgeração e minigeração ao sistema de distribuição. Os formulários e as documentações necessárias reúnem as informações técnicas e básicas para os estudos pertinentes ao acesso, bem como os dados que posteriormente serão enviados a ANEEL para fins de registro da unidade de geração.Caso a documentação entregue esteja incompleta, a solicitação será recusada, devendo o acessante realizar um novo pedido após a regularização das pendências.
+
+\section{Gerador Movido a Biodiesel}
+
+Nessa introdução será abordado a caracterização do uso do gerador, e a partir dos dados obtidos, será reformulado uma versão para o gerador que funcionará na Faculdade Gama da Universidade de Brasília (FGA/UnB).
+A geração de energia a partir do biodiesel, possui suas vantagens e desvantagens, porém, com a conscientização ambiental crescente da população, e também da situação crítica do planeta em relação ao aquecimento global, a utilização de recursos renováveis em detrimento aos combustíveis fósseis, viabiliza o uso do biodiesel e a seguir será apresentado as suas vantagens e desvantagens \cite{critical}:
+
+Vantagens:
+\begin{itemize}
+  \item Fonte de energia renovável;
+  \item Pode ser feito através de óleo usado;
+  \item Menos emissões de poluentes em relação aos combustíveis fósseis;
+\end{itemize}
+
+Desvantagens:
+\begin{itemize}
+  \item Existem barreiras técnicas para o uso do biodiesel extensivamente;
+  \item A falta de padrões da indústria torna difícil avaliar o desempenho do combustível e as diferenças de processamento;
+\end{itemize}
+
+De acordo com o estudo feito por \cite{carlo} com o biodiesel feito a partir do processo de transesterificação etílica do óleo de soja, para um motor gerador à diesel de 4 tempos, com potência nominal de 102,97 kW (140 cv) para 2500 RPM (Tabela 1), a fim de suprir energia para horário de ponta em indústrias, no intuito de reduzir a conta de energia elétrica dessas empresas.
+O estudo feito por \cite{carlo} demonstrou os valores de potência, torque, de consumo específico do biodiesel B100 (100\% de biodiesel), assim como a viabilidade econômica do gerador com biodiesel. Os dados citados são visualizados nas tabelas ~\ref{fig:tabela_motor} e ~\ref{fig:tabela_resultados}.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/tabela_motor.eps}
+  \caption{Especificações técnicas do motor de teste.}
+  \label{fig:tabela_motor}
+\end{figure}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/tabela_resultados.eps}
+  \caption{Valores máximos obtidos.}
+  \label{fig:tabela_resultados}
+\end{figure}
+
+Como podemos perceber, o valor máximo nominal de potência é de 102,97 kW para 2500 RPM, contudo os testes resultaram em 44,1 kW para 2467 RPM, ou seja, fazendo uma relação de proporcionalidade, verifica-se que o rendimento do gerador é de 47,56\%.
+Vemos ainda que o consumo específico mínimo do B100 é de 321,3 g/kWh para 1933 RPM.
+A demanda da potência em um dia para a FGA/UnB, durante seu período útil, das 08 horas da manhã até 18 horas da tarde, é de 105,11 kW, porém com o rendimento do gerador de 47,56\%, é necessário o gerador com capacidade de 155,10 kW.
+De acordo com \cite{regina} o biodiesel de soja possui uma densidade aproximada de 0,877 kg/l, como o consumo específico para 1933 RPM é de 321,3 g/kWh, portanto espera-se que para 2500 RPM o consumo seja de 431,55 g/kWh, isso equivale à 0,47382 l/kWh, ou seja, para 155,10 kW utilizar-se-á 73,50 litros operando em uma hora.
+
+\chapter[Controle de Acesso]{Controle de Acesso}
+\section{Escolha da Tecnologia}
+A área de Controle de Acesso está aqui subdividida em três grandes principais frentes tecnológicas.
+São elas: controle da entrada do estacionamento privativo, controle da entrada em salas e laboratórios
+e, por fim, controle de frequência durante as aulas.
+
+Dentre essas frentes, foram elegidas três possibilidades diferentes para a inserção na Universidade.
+A tabela a seguir elicita-as, bem como apresenta as vantagens e desvantagens para cada um dos casos.
+
+\begin{table}[h]
+  \centering
+  \caption{Tecnologias de Controle de Acesso - Vantagens x Desvantagens}
+  \label{my-label}
+  \begin{tabular}{|l|l|l|}
+    \hline
+    \multicolumn{1}{|c|}{\textbf{Tecnologia}} & \multicolumn{1}{c|}{\textbf{Vantagens}}                                                                         & \multicolumn{1}{c|}{\textbf{Desvantagens}}                                                                                                            \\ \hline
+    Leitor biométrico                         & \begin{tabular}[c]{@{}l@{}}- Difícil de burlar \\ - Confiável\end{tabular}                                      & \begin{tabular}[c]{@{}l@{}}- Pode gerar falhas na leitura \\ - Não reconhecer uma \\ digital cadastrada\\ - Sistema caro\\ - Sistema frágil\end{tabular} \\ \hline
+    Leitor facial/ Leitor de íris             & \begin{tabular}[c]{@{}l@{}}- Difícil de burlar \\ - Confiável\end{tabular}                                      & \begin{tabular}[c]{@{}l@{}}- Sistema de implementação\\ cara\\ - Demora para análise de \\cada pessoa\\ - Risco de furto\\ - Frágil\end{tabular}          \\ \hline
+    Leitor RFID                               & \begin{tabular}[c]{@{}l@{}}- Fácil de utilizar\\ - Difícil de burlar\\ - Único para cada estudante\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Custo extra para a \\faculdade\\ - Risco de perda do \\documento\end{tabular}                                                \\ \hline
+  \end{tabular}
+\end{table}
+
+Apesar de todas as tecnologias sugeridas apresentarem vantagens e desvantagens, o sistema RFID foi o escolhido para atender
+a demanda. Esta escolha se deu em virtude deste ser mais eficaz, eficiente e mais acessível financeiramente em relação aos
+outros.
+
+\subsection{Breve Descrição da Tecnologia RFID}
+O sistema funciona RFID (do inglês \textit{Radio-Frequency IDentification}) é um tecnologia que permite identificação automática
+ através de sinais de rádio. Neste projeto será implementado de  por meio de um chip dentro de um cartão, armazenando o
+ nome e matrícula do aluno dono do documento e sempre que o documento for apresentado, seus dados serão apresentados nos
+ display dos equipamentos. Levando em conta que tanto alunos como professores serão portadores deste documento com chip,
+ para o alunos o cartão será utilizado como carteirinha, e para os professores como crachá.
+
+Apesar de todo o grupo de controle de acesso utilizar esta ferramenta, cada uma das frentes utiliza o sistema de forma
+diferente e com aparelhos diferentes. Desta forma, cada área tem suas particularidades de funcionamento e regras, como será
+ mostrado e explicado a seguir.
+
+\section{Controle de Frequência}
+Para o controle de frequência nas aulas, será utilizado o seguinte aparelho (apresentado anteriormente no Ponto de Controle 1).
+O funcionamento dele acontece independente de sinal de WiFi e o aparelho é de porte único do professor.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.45]{figuras/freq.eps}
+  \caption{Aparelho Para Controle de Frequência}
+\end{figure}
+
+Em relação à aspectos técnicos do aparelho, a figura a seguir mostra detalhadamente quais os instrumentos utilizados.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.45]{figuras/aberto.eps}
+  \caption{Aparelho Para Controle de Frequência Detalhado}
+\end{figure}
+
+Cada um dos componentes possui sua função individual:
+\begin{itemize}
+  \item Componentes 1 e 9: Case superior e inferior. Há um orifício na parte superior do dispositivo para passagem do conector USB.
+  \item Componente 2: Teclado matricial de película 12 teclas.
+  \item Componente 3: Display LCD 16x2 com backlight
+  \item Componente 4: módulo Leitor de cartões RFID Mfrc522 Mifare, faz leitura e escrita em cartões RFID.
+  \item Componente 5: Módulo WiFi ESP8266 ESP-01, se conecta com a rede wifi e transmite e recebe dados servidor online.
+  \item Componente 6: Módulo Carregador de Baterias de Lítio TP4056, carrega a bateria através do seu conector USB.
+  \item Componente 7: Placa controladora faz as conexões com os demais componentes e possui um microcontrolador ATmega1280 16au da família AVR com o bootloader do Arduino mega.
+  \item Componente 8: Baterias do tablet Dl Lenoxx Navcity Phaser. Possuem capacidade de 2000mAh e tensão de 3,7v.
+\end{itemize}
+
+Cada um desses microcomponentes têm funções específicas que garantem o funcionamento adequado do instrumento. Sob uma ótica mais específica temos:
+
+\subsection{Kit Módulo Leitor Rfid Mfrc522 Mifare}
+
+
+Este módulo leitor RFID baseado no chip MFRC522 da empresa NXP é altamente utilizado em comunicação sem contato a uma frequência de 13,56MHz. Este chip, de baixo consumo e pequeno tamanho, permite sem contato ler e escrever em cartões que seguem o padrão Mifare, muito usado no mercado.
+
+Este leitor RFID possui as ferramentas para um projeto de controle de acesso ou sistemas de segurança a um ótimo preço.
+
+Este componentes vai ser conectado a o microcontrolador através dos pinos especiais sda(pino 44), sck(pino 20), miso(pino 22) e mosi(pino 21).
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/rfid.eps}
+  \caption{Módulo Leitor Rfid Mfrc522 Mifare}
+\end{figure}
+
+
+\subsection{Módulo WiFi ESP8266 ESP-01}
+O módulo wireless ESP8266 foi desenvolvido para que seja possível conectar o microcontrolador a uma conexão WiFi de forma fácil, eficaz e a um baixo preço.
+
+Este módulo suporta as redes 802.11 b/g/n, muito usadas atualmente, podendo trabalhar como um Ponto de Acesso (Access Point) ou como uma Estação (Station), enviando e recebendo dados.
+
+A comunicação serial pelo protocolo RS-232, irá utilizar as portas RX(pino 45) e TX(pino 46) do microcontrolador que possuem suporte para este protocolo de comunicação TX e diretamente a protoboard. Ele será utilizado para enviar as informações coletadas pelo dispositivo ao banco de dados na rede.
+\pagebreak
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/wifi.eps}
+  \caption{Módulo Leitor Rfid Mfrc522 Mifare}
+\end{figure}
+
+
+\subsection{Display LCD 16x2}
+Este é um display LCD de 16 colunas por 2 linhas, backlight azul e escrita branca. Possui o controlador HD44780 usado em toda indústria de LCD's como base de interface.
+
+A interface com microcontrolador é muito simples, sendo basicamente 4 pinos digitais de dados e 2 pinos digitais de controle. Confira no link o Datasheet Display LCD 16x2. O display será utilizado para mostrar a matrícula e o nome do dono da carteirinha, possibilitar ao professor selecionar a disciplina que deseja passar a chamada e outras informações que forem necessárias.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.45]{figuras/lcd.eps}
+  \caption{Display LCD}
+\end{figure}
+
+\pagebreak
+
+\subsection{Teclado de Película 4x4}
+O Teclado Matricial 4x4 é um componente utilizado para entrada de dados. Ele possui 16 teclas dispostas em 4 linhas x 4 colunas, e um conector de 8 pinos para ligação. Ele necessita de 8 pinos digitais para funcionar, sendo 4 configurados como saída(OUTPUT) e 4 como leitura(INPUT). Os pinos de saída são acionados como um contador em anel, elevando um pinos em nível alto e os demais em nível baixo, após um tempo determinado outro pino fica em nível alto e o resto em nível baixo e o ciclo se repete para cada pino. Cada pino é conectado em uma coluna da matriz e os pinos de leitura lêem as quatro linhas individualmente. Desta forma quando um botão é pressionado,  é possível determinar a linha e coluna da matriz.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.45]{figuras/teclado.eps}
+  \caption{Teclado de Película 4x4}
+\end{figure}
+
+\subsection{Carregador de Bateria Lipo - Mini Usb TP4056}
+Módulo carregador de baterias TP4056 para baterias de lítio, possibilita que as baterias sejam recarregadas sem a necessidade de removê-las do circuito. Módulo se conecta diretamente com a bateria e carrega a mesma quando é conectado um carregador USB. A corrente é cortada quando detecta que a carga está completa e possui um led indicador de carregamento. Contudo para aferir o nível de carga da bateria, será utilizado um pino analógico do microcontrolador. Medindo o nível de tensão na bateria será possível  informar o  nível de  carga através do display LCD, o que é mais prático.
+
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.45]{figuras/carregador.eps}
+  \caption{Carregador de Bateria Lipo}
+\end{figure}
+
+\subsection{Bateria}
+Serão utilizadas duas baterias 3.7V 2000mAh em série para alimentar o dispositivo. A tensão fornecida será 7.4~6V e uma autonomia de cerca de 8 horas em uso á 157 horas (cerca de 6 dias) em \textit{standby}. Todos os componentes têm uma tensão de operação de 3.3V, apenas o display LCD opera com 5V. Para regular a tensão, será utilizado CI regulador de tensão 7805 para o display e o LM1117T para os demais.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.7]{figuras/bateria.eps}
+  \caption{Bateria 2000mAh}
+\end{figure}
+
+\subsection{Microcontrolador ATmega1280}
+O microcontrolador escolhido foi o ATmega1280 em função de ser o microcontrolador presente no Arduino Mega e seu número de pinos. Por isso, será possível utilizar o bootloader do arduino no microcontrolador, facilitando a programação uma vez que todos os componentes utilizados no projeto possuem bibliotecas que facilitam seu uso e implementação para arduino. Seu número de pinos digitais e especiais (TX, RX, MOSI, MISO, SDA, SCK) também foi levado em consideração durante o processo de escolha.
+
+Em seguida, foram testados e pesquisados dados de tensão, autonomia e corrente, devido ser um aparelho portátil e de funcionamento independente da internet e sem estar ligado na tomada. Todos os dados estão apresentados na tabela a seguir.
+
+\begin{table}[!h]
+  \centering
+  \caption{Dados dos Componentes - Aparelho de Frequência}
+  \begin{tabular}{|l|c|c|c|}
+    \hline
+    \multicolumn{1}{|c|}{\textbf{Componentes}}                  & \parbox[t]{2cm}{\textbf{Corrente máxima (mA)}} & \multicolumn{1}{l|}{\parbox[t]{2cm}{\textbf{Corrente mínima (mA)}}} & \parbox[t]{5cm}{\textbf{Tensão de nominal (V)}} \\ \hline
+    \parbox[t]{6cm}{Kit Módulo Leitor Rfid Mfrc522 Mifare\\}                       & 13                            & 10                                        & 3,3                            \\ \hline
+    \parbox[t]{6cm}{Cartão RFID Programável Mifare 13,56Mhz}                     & -                             & -                                         & -                              \\ \hline
+    Módulo WiFi ESP8266 ESP-01                                  & 215                           & 0,9                                       & 3,3                            \\ \hline
+    LCD 16x2                                                    & 1,5                           & 1                                         & 5                              \\ \hline
+    Teclado de película 4x3                                     & 0,3                           & 0,3                                       & 3,3                            \\ \hline
+    ATmega1280                                                  & 20                            & 0,5                                       & 1,8                     \\ \hline
+    \parbox[t]{6cm}{Carregador De Bateria   Lipo - Mini Usb Tp4056}                & 0                             & 0                                         & 5                              \\ \hline
+    Bateria 3,7v 2000mah                                        & 0                             & 0                                         & 3,7                            \\ \hline
+    \multicolumn{1}{|c|}{\textbf{TOTAL}}                        & 249,8                         & 12,7                                      & -                              \\ \hline
+  \multicolumn{1}{|c|}{\parbox[t]{5cm}{\textbf{Autonomia da bateria (Horas)}}} & 8                             & 157                                       & -                              \\ \hline
+  \end{tabular}
+\end{table}
+
+Com base nos dados da tabela anterior, pode-se afirmar que a autonomia da bateria do dispositivo em uso contínuo poderá ser de até 8 horas e, em standby, até 6 dias. Dado que o dispositivo poderá entrar em um modo de dormência, desabilitando o wifi, o leitor e até o próprio microcontrolador, ele poderá ter uma autonomia maior que 8 horas se entrar de forma automática neste modo enquanto aguarda uso.
+
+Por fim, em termos econômicos, obtivemos o seguintes dados de custos:
+
+\begin{table}[!h]
+  \centering
+  \caption{Custos dos Componentes - Aparelho de Frequência}
+  \label{my-label}
+    \begin{tabular}{|l|c|c|}
+    \hline
+    \multicolumn{1}{|c|}{\textbf{Componente}}    & \textbf{Custo} & \textbf{Fonte}                                                                                                \\ \hline
+    \parbox[t]{7cm}{Kit Módulo Leitor Rfid Mfrc522 Mifare}        & R\$ 39,90      & \href{http://www.filipeflop.com/pd-6b883-kit-modulo-leitor-rfid-mfrc522-mifare.html}{Fonte 1}                                 \\ \hline
+    \parbox[t]{7cm}{Cartão RFID Programável Mifare 13,56Mhz}      & R\$ 5,90       & \href{http://www.filipeflop.com/pd-1c240a-cartao-rfid-programavel-mifare-13-56mhz.html}{Fonte 2}                              \\ \hline
+    Módulo WiFi ESP8266 ESP-01                   & R\$ 29,90      & \href{http://www.filipeflop.com/pd-1f55ad-modulo-wifi-esp8266-esp-01.html}{Fonte 3}                                           \\ \hline
+    LCD 16x2                                     & R\$ 16,90      & \href{http://www.filipeflop.com/pd-6b7e4-display-lcd-16x2.html?ct=\&p=1\&s=1}{Fonte 4}                                        \\ \hline
+    Teclado de película 4x3                      & R\$ 10,90      & \href{http://www.filipeflop.com/pd-218a98-teclado-matricial-de-membrana-12-teclas.html?ct=\&p=1\&s=1}{Fonte 5}                \\ \hline
+    ATmega1280                                   & R\$ 60,00      & \href{http://produto.mercadolivre.com.br/MLB-831270785-lote-5-pecas-atmega1280-16au-marca-atmel-100-tqfp-atmel-\_JM}{Fonte 6} \\ \hline
+    \parbox[t]{7cm}{Carregador De Bateria Lipo - Mini Usb Tp4056} & R\$ 9,90       & \href{http://www.filipeflop.com/pd-36ef09-modulo-carregador-de-baterias-de-litio-tp4056.html?ct=\&p=1\&s=1}{Fonte 7}          \\ \hline
+    Bateria 3,7v 2000mah                         & R\$ 19,90      & \href{http://produto.mercadolivre.com.br/MLB-763262237-bateria-tablet-universal-dl-navcity-phaser-37v-2000mah-\_JM}{Fonte 8}  \\ \hline
+\end{tabular}
+\end{table}
+
+Apesar da tabela não apresentar os preços do case superior e inferior, todo o aparelho ficaria em torno de R\$ 193,30. Este é um preço considerado acessível, considerando o tempo que o aparelho pode manter um bom funcionamento.
+
+\section{Acesso às Salas e Laboratórios}
+O controle de acesso às salas e laboratórios será um sistema único na faculdade, porém alunos e professores terão um tratamento diferenciado para a liberação de entrada nas salas. Essa diferenciação ocorre principalmente pelo fato dos ambientes possuírem equipamentos caros e pela segurança dos alunos e professores durante as aulas.
+
+\subsection{Acesso dos Professores}
+Para obterem acesso às salas, os professores terão que apresentar seu cartão no leitor RFID, que por sua vez lerá
+ os arquivos guardados no chip, matrícula e nome completo do docente, e gerará o token de segurança. Assim que esses
+  dados de entradas forem lidos pelo aparelho, o módulo wifi do equipamento se conectará imediatamente com a rede da
+   faculdade e vai comparar os dados de entrada com os que estão no banco de dados já salvos pela UnB, e caso os
+    dados estejam de acordo, a placa controladora do aparelho fará conexão com os outros micro equipamentos e a
+     tranca será liberada para o acesso a sala ou laboratório. Enquanto o professor não passar novamente o cartão
+      para fechar a sala, a porta ficará destrancada para a entrada dos alunos.
+
+Caso o professor esqueça o cartão seria possível a entrada nas salas por meio de uma senha cadastrada, sendo que
+ essa senha somente os professores terão acesso, e cada um dos professores terá sua senha própria. Vale ressaltar
+  que o horário em que o professor inicia a abertura da sala, sempre é registrado, assim como o horário de fechamento.
+   Os professores terão permissão para fazer o uso de qualquer sala ou laboratório em qualquer horário em que a universidade esteja aberta.
+
+\subsection{Acesso dos Alunos}
+Para um aluno abrir as salas com trancas será necessário que ele apresente sua carteirinha com nome e matrícula na secretaria, e lá ele receberá uma senha provisória. Isso se deve ao fato de que quando um aluno passar a carteirinha no leitor RFID e o leitor fizer todo seu processo de reconhecimento, o dispositivo reconhecerá que é um aluno tentando entrar e será solicitada uma senha para ele ter o acesso nas salas. Neste caso, o dispositivo vai registrar o horário e o tempo de uso da sala no qual o aluno se responsabilizará durante esse tempo.
+
+Caso o aluno responsável pela sala tenha que sair, será necessário que outro aluno faça o mesmo procedimento para que a sala continue aberta, fazendo com que a responsabilidade também mude para o novo aluno cadastrado. No caso das salas de estudos, em que não terão controle de acesso, todos terão entrada livre para maior liberdade de acesso dos alunos, inclusive daqueles que não são alunos da universidade.
+
+Para a escolha do sistema RFID no controle das salas, foi feito um balanço financeiro sobre possíveis possibilidades de marcas e compradores diferentes, como é mostrado na tabelas a seguir.
+
+\begin{table}[h]
+  \centering
+  \caption{Custos - Dispositivo de Frequência}
+  \begin{tabular}{l|l|}
+    \cline{2-2}
+    \textbf{Preço Unitário}   & \multicolumn{1}{c|}{R\$ 193,30} \\ \cline{2-2}
+    \textbf{TOTAL (20 salas)} & R\$ 3.866,00                    \\ \cline{2-2}
+  \end{tabular}
+\end{table}
+
+\begin{table}[h]
+  \centering
+  \caption{Custos - Fechaduras}
+  \label{my-label}
+  \begin{tabular}{|l|l|c|l|c|l|}
+    \hline
+    \multicolumn{2}{|c|}{\parbox[t]{3cm}{\textbf{INTELBRAS FFX 1000}}} & \multicolumn{2}{c|}{\textbf{C90 HDL}}       & \multicolumn{2}{c|}{\parbox[t]{3cm}{\textbf{PROTECTION PT-710}}} \\ \hline
+    \textbf{Loja}                 & \textbf{Preço}    & \textbf{Loja}              & \textbf{Preço} & \textbf{Loja}                & \textbf{Preço}   \\ \hline
+    \parbox[t]{2cm}{MAGAZINE LUIZA}                & R\$ 143,91        & AMERICANAS                 & R\$ 165,90     & \parbox[t]{2cm}{PROTECTION STORE}             & R\$ 219,00       \\ \hline
+    WALMART                       & R\$ 145,00        & WALMART                    & R\$ 169,00     & WALMART                      & R\$ 131,00       \\ \hline
+    MERCADO LIVRE                 & R\$ 145,90        & \parbox[t]{2cm}{MERCADO LIVRE}              & R\$ 149,90     & \parbox[t]{2cm}{MERCADO LIVRE}                & R\$ 125,00       \\ \hline
+    SUBMARINO                     & R\$ 145,90        & SUBMARINO                  & R\$ 179,90     & -                            & -                \\ \hline
+    \parbox[t]{2cm}{RICARDO ELETRO}                 & R\$ 180,40        & \parbox[t]{2cm}{LEROY MERLIN}               & R\$ 179,90     & -                            & -                \\ \hline
+    \textbf{MÉDIA:}               & R\$ 152,22        & \textbf{MÉDIA:}            & R\$ 168,92     & \textbf{MÉDIA:}              & R\$ 168,92       \\ \hline
+    \parbox[t]{2cm}{\textbf{TOTAL (20 SALAS):}}    & R\$ 3.044,44      & \parbox[t]{2cm}{\textbf{TOTAL (20 SALAS):}} & R\$ 3.378,40   & \parbox[t]{2cm}{\textbf{TOTAL (20 SALAS):}}   & R\$ 3.166,67     \\ \hline
+  \end{tabular}
+\end{table}
+
+A primeira tabela se refere ao dispositivo utilizado que é o mesmo do controle de frequência, já mencionado anteriormente com mais detalhes. A segunda tabela, por sua vez, mostra um detalhamento sobre os tipos de fechadura visto por empresas diferentes. Analisando toda a tabela, é notável que a fechadura Intelbras FFX 1000 tem um preço mais acessível, comparado às outras, além de ser tão eficiente quanto todas pesquisadas.
+
+\section{Acesso ao Estacionamento}
+
+Já foram apresentadas anteriormente (no Ponto de Controle 1) as vantagens e desvantagens do controle do acesso ao estacionamento. Em resumo: por um lado temos a sonhada segurança no campus da FGA e por outro lado temos a rejeição do público alvo com o novo sistema.
+
+O sistema funcionará utilizando um leitor RFID de baixa frequência, essa gama de frequências estende-se dos 30KHz aos 300KHz. Os leitores, nesta gama de frequências, operam a 125 ou 135 KHz e possuem um alcance inferior a meio metro com a velocidade de transferência inferior a 1 kbits/s, o que significa que este opera em baixa interferência com o meio ambiente e tem um comportamento bom na leitura de tags em objetos contendo líquidos e metais, assim todo o processo do microcontrolador de chegar no banco de dados as informações do aluno, professor ou funcionário acontecerá, e permitirá ou não a passagem do carro para o estacionamento privativo.
+
+Além de contar com o aparelho leitor RFID e a cancela para controlar o acesso, o estacionamento também terá uma câmera que filmará em tempo real a placa do carro e o motorista, constatando o horário de saída e entrada do carro.
+
+Apesar desse sistema de segurança ser primordial no projeto, ele é um sistema de fácil implementação e uso, tendo em vista que não há um diferenciamento específico de pessoas que entram no estacionamento. Qualquer pessoa da faculdade pode entrar sem exceções e o sistema de banco de dados com nome e matrícula é o mesmo que outras partes de controle de acesso também utilizam.
+
+Em termos financeiros, o projeto de controle de acesso ao estacionamento é considerado viável devido ao \textit{payback} de todos os equipamentos utilizados com é mostrado na tabela a seguir.
+
+\pagebreak
+
+\begin{table}[h]
+  \centering
+  \caption{Custos - Estacionamento}
+  \begin{tabular}{|l|l|l|l|l|l|l|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Item}} & \multicolumn{2}{c|}{\textbf{Quantidade}} & \multicolumn{1}{c|}{\textbf{Descrição}}                                                               & \textbf{R\$ (unidade)} & \textbf{R\$ (total)} \\ \hline
+    \multicolumn{2}{|l|}{1}             & \multicolumn{2}{l|}{2}                   & \parbox[t]{6cm}{Instalação de CPU ou totens de leitura de tags RFID.}                                                  & R\$678,00              & R\$1.356,00          \\ \hline
+    \multicolumn{2}{|l|}{2}             & \multicolumn{2}{l|}{2}                   & Hardware de comunicação com cancelas.                                                                 & R\$800,00              & R\$1.600,00          \\ \hline
+    \multicolumn{2}{|l|}{3}             & \multicolumn{2}{l|}{2}                   & \parbox[t]{6cm}{Sensores de leitura infra-vermelho, para identificação da saida de veiculos e fechamento de cancelas.} & R\$1.200,00            & R\$2.400,00          \\ \hline
+    \multicolumn{6}{|l|}{\textbf{TOTAL:}}                                                                                                                                                                           & R\$5.356,00          \\ \hline
+  \end{tabular}
+\end{table}
+
+Apesar de serem equipamentos caros, estes possuem uma longa vida útil, se usados corretamente, ou seja, se trata de um investimento à longo prazo de um bem útil à todo o corpo universitário.
+
+
+
+Vale a pena ressaltar que o aparelho de frequência é o mesmo utilizado em todas as frentes de controle de acesso, a única diferença entres as frentes é que para o controle nas salas e controle do estacionamento ele estará preso em uma superfície plana na vertical, para que o usuário possa fazer uso dele tanto em pé quanto dentro do automóvel.
+
+\chapter[Instrumentação e Controle]{Instrumentação e Controle}
+
+\section{Ambientação da Sala}
+\subsection{Iluminação}
+
+Nas salas de aula serão utilizadas um modelo de lâmpada inteligente que possui sensores de luminosidade e de presença. Este equipamento é capaz de ajustar a intensidade luminosa do ambiente, permitindo a manutenção automática do nível adequado de luz. A curto prazo, essa solução se apresenta um custo elevado, pois cada kit (2 lâmpadas e 1 controlador) custa cerca de R\$ 500,00. Porém, a longo prazo, possui maior custo benefício, pois apresentam uma vida útil de aproximadamente 30 anos. A lâmpada chega a consumir 60\% a 80\% (de 598,4 W/H a  1196,8 W/H) do consumo de energia elétrica comparada a uma lâmpada LED tradicional (cerca de 2992 W/H).
+
+\subsection{Persianas Inteligentes}
+
+Persianas automatizadas serão utilizadas para o controle de iluminação natural nos ambientes do prédio. Estas persianas são feitas de um material resistente, e podem serão instaladas na parte interna das salas. O espaçamento entre cada haste pode ser regulado, para limitar a quantidade de luz natural que entra na sala. Além disso, a fabricação das persianas impede a entrada de poeira, reduzindo os problemas que ela causa, e quando totalmente fechadas, fornecem isolamento acústico.
+As persianas são controladas a partir de um mesmo ponto, simplificando e diminuindo a movimentação para abrí-las ou fechá-las dentro da sala. Seu custo médio é de R\$ 450,00.
+
+\subsection{Sistema de Som}
+
+Para a sonorização do ambiente da sala de aula, serão utilizadas caixas de som in-wall, com potência máxima de 160 Watts e armação reforçada de fibra de vidro. O custo é de aproximadamente R\$570,00 o par.
+Para os microfones, serão utilizados dispositivos sem fio e com apoio na orelha, comodidade para o professor. O preço varia bastante, sendo encontrados valores por volta de R\$ 150,00.
+
+\subsection{Climatização}
+
+Serão utilizados ar-condicionados do tipo split inverter, o qual o compressor nunca desliga, então não ocorre picos de energia. Além disso, esse compressor tem a velocidade de rotação variável, se auto-regulando de acordo com a temperatura interior. Apresentam um maior custo, porém, economizam energia ao longo do tempo, o que traz benefícios.
+Para as salas de aula menores, serão utilizados aparelhos com 12.000 BTUs de potência, que custa em torno de R\$1.200,00. Pela tabela do Procel o ar-condicionado de 12.000 BTUs split consume aproximadamente 193,76 KW/h.
+Para as salas maiores, serão utilizados ar-condicionados mais potentes, devido a grande quantidade de alunos nas aulas e o tamanho das salas. Estes equipamentos terão 58000 BTUs de potência, que custam R\$5000,00 e pela tabela de do Procel ele consome cerca de 679,20 KW/h de energia elétrica.
+
+\begin{table}[!h]
+  \centering
+  \caption{Soluções de Ambientação da Sala}
+  \label{my-label}
+    \begin{tabular}{|l|l|l|l|l|l|}
+    \hline
+    \textbf{Equipamentos} & \textbf{Descrição} & \textbf{Vantagens} & \textbf{Desvantagens} & \textbf{Consumo} & \textbf{Custo} \\ \hline
+    \parbox[t]{3cm}{Lâmpada Inteligente} & \parbox[t]{2cm}{Lâmpada inteligente que possui sensores de luminosidade e de presença.} & \parbox[t]{3cm}{Economia de energia, longa durabilidade e sensores de nível de luz.} & \parbox[t]{3cm}{Custo comparado com as outras lâmpadas.} & \parbox[t]{2cm}{Entre 1196,8W/H e 598,4WH.} & \parbox[t]{2cm}{R\$560,00} \\ \hline
+    \parbox[t]{3cm}{Persianas Automatizadas} & \parbox[t]{2cm}{Persianas automatizadas que funciona a partir de um determinado aplicativo.} & \parbox[t]{3cm}{Facilidade na hora de escolher abertura da persiana.} & \begin{tabular}[c]{@{}l@{}}\parbox[t]{3cm}{Falta de energia do prédio compromete o funcionamento}\\ \parbox[t]{3cm}{Custo comparado com uma persiana normal.}\end{tabular} & \parbox[t]{2cm}{Não foi encontrado.} & \parbox[t]{2cm}{R\$450,00} \\ \hline
+    \parbox[t]{3cm}{Alto-Falantes} & \parbox[t]{2cm}{Caixas de som que são fixadas na parede.} & \parbox[t]{3cm}{Melhor propagação do som pela sala.} & \parbox[t]{3cm}{Falta de energia compromete o uso, e se tiver problemas de funcionamento compromete o som da sala.} & \parbox[t]{2cm}{160 Watts.} & \parbox[t]{2cm}{R\$570,00 o par.} \\ \hline
+    \parbox[t]{3cm}{Microfones} & \parbox[t]{2cm}{Aparelho que converte ondas sonoras em sinais elétricos.} & \parbox[t]{3cm}{Aumento da voz do professor e melhora a qualidade de som das aulas.} & \parbox[t]{3cm}{Falta de energia compromete o uso e se tiver problemas de funcionamento pode prejudicar a qualidade do som durante as aulas.} & \parbox[t]{2cm}{12 Watts.} & \parbox[t]{2cm}{R\$ 150,00} \\ \hline
+    \parbox[t]{3cm}{Ar-condicionado} & \parbox[t]{2cm}{Aparelho que regula o aquecimento ou a refrigeração do ambiente.} & \parbox[t]{3cm}{Monitoramento da temperatura do ambiente e melhora o clima da sala principalmente em épocas de calor.} & \parbox[t]{3cm}{Custo e alto gasto de energia ainda mais nas salas grandes.} & \parbox[t]{2cm}{193,76 KW/h a 679,20KW/h} & \parbox[t]{2cm}{R\$1.298,0 a R\$5449,00} \\ \hline
+  \end{tabular}
+\end{table}
+
+\section{Digitalização e Integração de Equipamentos para Aula}
+
+\subsection{Mesa Inteligente}
+
+A mesa inteligente consiste em uma tela sensível ao toque, em formato de mesa, que permitirá que o professor controle os diversos dispositivos presentes na sala.
+As características de cada dispositivo varia de um fabricante para outro, como por exemplo o tamanho da tela sensível ao toque, sendo encontradas usualmente telas de 32 a 65 polegadas, ou a presença de tecnologias de reconhecimento de objetos colocados sobre sua superfície.
+As mesas interativas possuem suporte para diferentes sistemas operacionais, como Windows, Linux, MacOs X, e até Android, o que permite a fácil integração com outros dispositivos como projetores e roteadores de internet. Isto pode possibilitar ao professor o acesso a materiais disponíveis online durante a aula, facilidade de exibição de apresentações em slides entre outras inúmeras possibilidades de uso, além de possuir um controle centralizado de todas as funções automatizadas presentes na sala de aula.
+
+\subsection{Quadro interativo}
+
+Além dos quadros convencionais, um quadro interativo será utilizado para auxiliar o professor, tornando as aulas expositivas mais dinâmicas. Atualmente existem diversos fabricantes de quadros interativos, com diferentes tamanhos e funcionalidades, incluindo até, em alguns casos, suites de softwares específicos para aquele determinado produto. Os dispositivos possuem diversas opções de conectividade, possibilitando a interação com computadores pessoais, dispositivos mobile e até mesmo com a mesa inteligente do professor. O custo deste equipamento varia entre R\$4.000,00 e R\$8.000,00.
+
+\begin{table}[!h]
+  \centering
+  \caption{Soluções de Digitalização e Integração de Equipamentos para Aula}
+  \label{my-label}
+  \begin{tabular}{|l|l|l|l|l|l|}
+    \hline
+    \textbf{Equipamentos} & \textbf{Descrição} & \textbf{Vantagens} & \textbf{Desvantagens} & \textbf{Consumo} & \textbf{Custo} \\ \hline
+    \parbox[t]{3cm}{Mesa inteligente} & \parbox[t]{2cm}{Painel de controle da sala e também um computador de uso do professor}. & \parbox[t]{3cm}{Auxilia no monitoramento do professor em relação a sala e além de ser um instrumento a mais de uso para as aulas dos professores e na aprendizagem dos alunos.} & \parbox[t]{3cm}{Alto custo e se for danificado pode comprometer as aulas dos professores e do funcionamento da sala.} & \parbox[t]{2cm}{Não encontrado.} & \parbox[t]{2cm}{\$8000,00 (Dólares)} \\ \hline
+    \parbox[t]{3cm}{Quadro interativo} & \parbox[t]{2cm}{Superfície que,reconhece a escrita electronicamente e que necessita de um computador para funcionar.} & \parbox[t]{3cm}{Aumento na produtividade e exposição do conteúdo das aulas e além de ser mais uma ferramenta útil para os professores.} & \parbox[t]{3cm}{Alto custo e restrito ao local.} & \parbox[t]{2cm}{0,5W} & \parbox[t]{2cm}{Entre R\$4.000,00 e R\$8.000,00} \\ \hline
+  \end{tabular}
+\end{table}
+
+\section{Status da Sala}
+
+\subsection{Painel informativo}
+
+A melhor solução para o painel informativo seria um display de LCD embutido na parede, onde as informações sobre o status da sala serão exibidas. Estas informações seriam enviadas em tempo real, permitindo que imprevistos ou informações de última hora sejam informadas aos usuários da sala com maior efetividade. O custo deste tipo de equipamento varia em torno de R\$300,00 e R\$1500,00, dependendo da marca e do tamanho da tela.
+
+\section{Sensores}
+
+\subsection{Termopar}
+
+Os termopares medem a temperatura do ambiente utilizando-se de dois condutores metálicos diferentes unidos na mesma extremidade. Esse dispositivo funciona pelo princípio de que essa configuração citada, gera uma força eletromotriz em função dos metais e das temperaturas T1 (junta de medida) e T2 (junta de referência). Assim criou-se uma tabela de correlação entre a FEM e a função de temperatura, considerando T2=0. Para o nosso projeto, foi escolhido o termopar tipo K que é de uso genérico, tem baixo custo e mede temperaturas entre -200 e 1200C, tendo uma sensibilidade de aproximadamente 41uV/C. O custo de um termopar é de aproximadamente R\$40,00.
+
+\subsection{Termostato}
+
+É o dispositivo utilizado para manter a temperatura constante, composto por um sensor que mostra a variação de temperatura e um que controla essa variação. Aqui pode se aplicar o Ecobee 3 que custa \$169. Esse aparelho possui um sensor de movimento, priorizando sua utilização onde detecta movimento e ainda mantém a tela em modo de economia de energia até detectar que alguém está se aproximando da tela. Ele funciona via Wi-fi e aplicativos, além do que pode se conectar a mesa inteligente.
+
+\subsection{Sensores de Calor}
+
+Será usado como sensor de calor o detector de temperatura e Fumaça Combinados, código AFVRFTH da empresa ABAFIRE. É um equipamento que deve ser instalado no teto ou na parede das edificações e tem como função enviar um alerta para uma Central de Alarme de Incêndio assim que detecta o aumento brusco da temperatura ambiente ou a presença de fumaça. Este alerta serve para avisar ao responsável pela segurança da edificação que, possivelmente, existe uma situação emergencial no local, como um princípio de incêndio . O sensor consegue identificar pela elevação da temperatura quanto pela presença de fumaça.Ele detecta a partir dos 55C e tem uma cobertura circular de 4,2 metros. É alimentado com 24V .Possui LED vermelhos de vigília e alarme.Consumo de 30 uA em repouso e 30MA quando é ativado. O sensor estaria interligado com a sala de controle para que seja avisado o perigo de incêndio no local e ele se encontra no mercado entre R\$150 e R\$ 250.
+
+\subsection{Sensor de movimento}
+
+O sensor de movimento será utilizado para o controle de luz do ambiente, fazendo com que não tenha desperdício de energia ao deixar as luzes ligadas. Esse sensor seria basicamente para, no caso de deixarem a luz ligada, depois de um certo tempo e verificando que não tem ninguém no local, as luzes sejam apagadas automaticamente. O preço dos sensores varia, tendo sensores que custam R\$15,00 (no caso, seria apenas o sensor, tendo que fazer o circuito para o funcionamento do mesmo) e sensores prontos para uso, que variam o preço entre R\$35,00 e R\$ 210,00.
+
+\subsection{Fototransistores}
+
+Dispositivo utilizado na lâmpada responsiva, que variam a resistência elétrica de acordo com a intensidade luminosa do local. Ele possui dois diodos de junção, o coletor e o emissor; a base é incluída quando tem-se polarização ou controle elétrico. Quando recebem fótons, o conjunto base-coletor cria lacunas na sua vizinhança e a tensão faz com que as lacunas sejam transmitidas para o emissor. Enquanto isso os elétrons do emissor sao tranferidos para a base, aumentando a corrente nela e, consequentemente, variando a corrente no coletor. Assim, com a base desconectada, a corrente dependerá da intensidade luminosa incidente. Um fototransistor 3mm custa em média R\$5,00.
+
+\begin{table}[!h]
+  \centering
+  \caption{Soluções de Sensores}
+  \label{my-label}
+    \begin{tabular}{|l|l|l|l|l|l|}
+    \hline
+    \textbf{Equipamentos} & \textbf{Descrição} & \textbf{Vantagens} & \textbf{Desvantagens} & \textbf{Consumo} & \textbf{Custo} \\ \hline
+    \parbox[t]{3cm}{Termopar} & \parbox[t]{2cm}{Sensor simples de Temperatura.} & \parbox[t]{3cm}{Barato, simples, fácil de serem usados  e geram sua própria tensão.} & \parbox[t]{3cm}{Sofrem corrosão acima de sua temperatura limite e o tempo de resposta é menor do que qualquer outro que mede a temperatura. } & \parbox[t]{2cm}{Sem consumo.} & \parbox[t]{2cm}{R\$40,00} \\ \hline
+    \parbox[t]{3cm}{Termostato} & \parbox[t]{2cm}{Controla as variações de temperatura do ambiente, procurando sempre mantê-la a temperatura constante.} & \parbox[t]{3cm}{Proporciona um controle mais preciso da temperatura e tentar manter constante a temperatura.} & \parbox[t]{3cm}{Falta de energia compromete o seu funcionamento e além dele ser importado e do custo.} & \parbox[t]{2cm}{50W} & \parbox[t]{2cm}{\$169( Dólares).} \\ \hline
+    \parbox[t]{3cm}{Fototransitores} & \parbox[t]{2cm}{Dispositivo utilizado na  iluminação, que variam a resistência elétrica de acordo com a intensidade luminosa do local.} & \parbox[t]{3cm}{Pode amplificar a corrente e possui baixo preço.} & \parbox[t]{3cm}{Possui operação relativamente complexa e além de baixa velocidade de operação.} & \parbox[t]{2cm}{Não foi encontrado.} & \parbox[t]{2cm}{R\$5,00 de 3mm} \\ \hline
+    \parbox[t]{3cm}{Sensores de Calor} & \parbox[t]{2cm}{Sensor que identifica a presença de fumaça ou do aumento de temperatura e que levará um possível incêndio.} & \parbox[t]{3cm}{Alertam com mais rapidez a presença de perigo de incêndio e tem duas maneiras de identificar o incêndio pelo aumento de temperatura e a presença de fumaça.} & \parbox[t]{3cm}{Raio pequeno de captura de apenas 4,2 metros e necessita de técnicos para sua instalação e manutenção. Se os alunos brincarem na aula de queimar papel facilmente ele é acionado.} & \parbox[t]{2cm}{30 uA em repouso e 30mA ativado.} & \parbox[t]{2cm}{Entre R\$ 150 e R\$250} \\ \hline
+  \end{tabular}
+\end{table}
+
+
+\section{Sala de Controle}
+
+A sala de controle será a central de todos os equipamentos eletrônicos internos do prédio. Responsável pelo processamento e armazenamento dos dados, fará o envio de sinais para os equipamentos (fazendo assim o controle dos mesmos) e também a administração da rede do prédio. Ela conterá principalmente o maquinário necessário para o controle e supervisão dos demais equipamentos, contendo servidores, um network switch (ponto central no qual todos os computadores ou dispositivos são ligados a ele para ter acesso a outros computadores ou dispositivos, através da rede), e telas para monitoramento das funções do prédio.
+
+\begin{table}[!h]
+  \centering
+  \caption{Sala de Controle}
+  \label{my-label}
+  \begin{tabular}{|l|l|l|l|l|l|}
+    \hline
+    \textbf{Equipamentos} & \textbf{Descrição} & \textbf{Vantagens} & \textbf{Desvantagens} & \textbf{Consumo} & \textbf{Custo} \\ \hline
+    \parbox[t]{3cm}{Sala de controle} & \parbox[t]{2cm}{Local que receberá as notificações sobre o funcionamento e a manutenção dos aparelhos utilizados no prédio.}. & \parbox[t]{3cm}{Melhora monitoramento do funcionamento de cada equipamento do prédio e centraliza as ocorrências de defeitos ou problemas.} & \parbox[t]{3cm}{Se a sala estiver fora do ar pode comprometer com a descoberta de problemas e defeitos nos equipamentos.} & \parbox[t]{2cm}{29,16 Kw/h (por servidor) 8,16Kw/h (Monitor LCD).} & \parbox[t]{2cm}{R\$ 2000,00 cada computador.)} \\ \hline
+  \end{tabular}
+\end{table}
+
+\section{Monitoramento do Prédio}
+
+O monitoramento do prédio consistirá na comunicação dos dispositivos com a central de processamento por meio de uma rede wireless. Esta conexão possibilita o recebimento de sinais de controle, e o envio de feedback sobre o funcionamento dos dispositivos, estatísticas de uso e falhas, notificações sobre mau funcionamento, entre outras informações. De mesmo modo, os diversos sensores presentes no prédio também irão enviar informações coletadas para processamento.
+Esta comunicação em tempo real, possibilita a manutenção preditiva dos equipamentos, reduzindo os custos com estes serviços, além da coleta de dados estatísticos que podem ser usados para diversos objetivos.
+
+\chapter[Diagrama dos Eletrônicos do Prédio]{Diagrama dos Eletrônicos do Prédio}
+
+O cerne do projeto de automação do novo predio da FGA será a integração entre os diversos dispositivos de automação presentes no projeto. Para que isto seja possível, será implantada uma sala de controle central, representada por um diagrama de blocos na figura ~\ref{fig:sala_cont}. Nesta sala estarão os servidores responsáveis pelo envio de sinais de controle, pelo processamento e armazenamento dos dados de \textit{feedback} fornecidos pelos equipamentos e sensores do prédio, e pela manutenção da rede de internet de todo o edifício.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.4]{figuras/automacao_sala_de_controle.eps}
+  \caption{Sala de Controle}
+  \label{fig:sala_cont}
+\end{figure}
+
+A conexão dos dispositivos com a sala de controle é representada nas figuras ~\ref{fig:plant_sup} e ~\ref{fig:plant_inf}.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.4]{figuras/planta_eletronica_superior.eps}
+  \caption{Planta Eletrônica Piso Superior}
+  \label{fig:plant_sup}
+\end{figure}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.3]{figuras/planta_eletronica_inferior.eps}
+  \caption{Planta Eletrônica Piso Inferior}
+  \label{fig:plant_inf}
+\end{figure}
+
+Além de enviar e receber dados da sala de controle, alguns dispositivos se comunicam uns com os outros, como no caso das salas de aula, onde a mesa inteligente controla todos os dispositivos de automação presentes nas salas, funcionando como um painel de controle central pada cada uma delas, como é mostrado nas figuras ~\ref{fig:sala_aula} e ~\ref{fig:sala_comp}.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.3]{figuras/instrumentacao_da_sala.eps}
+  \caption{Sala de Aula}
+  \label{fig:sala_aula}
+\end{figure}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.3]{figuras/automacao_sala_de_computadores.eps}
+  \caption{Sala de Computadores}
+  \label{fig:sala_comp}
+\end{figure}
+
+\chapter[Interfaces e Processamento de Software]{Interfaces e Processamento de Software}
+
+\section{Estrutura do Banco de Dados}
+
+O projeto do prédio inteligente/sustentável faz com que haja necessidade de armazenamento de dados. Os quais são gerados a partir da identificação diária do aluno em sala de aula, que é utilizado para o controle de acesso à cada aula, dos dados relacionados à produção e consumo de energia, que são gerenciados pelo Smart Grid e dados comuns.
+Para o armazenamento de dados há algumas alternativas.
+\begin{itemize}
+  \item Servidores Locais
+    \begin{itemize}
+    \item Torre;
+    \item Rack;
+    \item Blade;
+    \end{itemize}
+  \item Dispositivos de Storage;
+  \item Servidores e Nuvem;
+\end{itemize}
+
+Os servidores locais permitem com que dados possam ser acessados, alterados e adicionados por computadores ligados ao(s) servidor(es). Geralmente, são usados quando há uma grande transferência de dados entre as máquinas/servidores. Assim, podendo ser acessado com mais facilidade, agilidade, rapidez e segurança. Porém há um gasto maior com profissionais especializados em manutenção de tais servidores \cite{baguete}.
+Os servidores do tipo Torre é o modelo mais básico, indicado para pequenas empresas, as quais não dispõem de uma sala de dados específica para armazenar os servidores. Tendo os seus componentes de hardware adaptados às necessidades e ao tamanho do projeto e/ou equipe \cite{anyconsulting}.
+Os servidores do tipo Blade são formados por um microprocessador, barramentos e memória, e o conjunto de blades compartilha da mesma conexão de rede, refrigeração e fornecimento de energia. Seus componentes são armazenados dentro de um chassi ou gabinete. Mesmo tendo um tamanho reduzido, os servidores são úteis para o desenvolvimento de data centers e hospedagens de serviços web, pois, é mais flexível em relação à velocidade que a quantidade de armazenamento de dados vai crescendo, em vista que são modulares.
+Os servidores racks atendem melhor grandes empresas que necessitam de uma infraestrutura de TI complexa. Possui um alto desempenho e tem um melhor aproveitamento do espaço, permitindo a retirada e inclusão de servidores de acordo com a demanda e necessidade de armazenamento \cite{anyconsulting}.
+Os dispositivos de storage é uma solução confiável, além dos servidores locais, para o armazenamento de dados e arquivos. Porém, não tem capacidade para transferências frequentes dessas informações entre as máquinas que compõe o sistema. São apenas aparelhos que atuam como um HD (disco rígido), não possuindo uma interface, sistema operacional, que permita a transferência de dados, nem acesso múltiplo de computadores \cite{baguete}.
+O gerenciamento de dados em servidores na Nuvem, é o armazenamento de dados online no servidor de empresas que forneçam esse serviço. Sendo uma alternativa mais em conta quando se trata do tamanho do empreendimento, quantidade de dados que serão armazenados e utilizados. Sendo online, o serviço fornecido depende muito mais da internet do contratante. O acesso às informações guardadas e à inserção/alteração dos dados, tem uma menor agilidade, rapidez e segurança quando se comparado à um servidor local. A segurança de um armazenamento em nuvem, depende mais da empresa à qual fornece o serviço. Então, os dados ficam vulneráveis aos ataques aos servidores da empresa \cite{baguete}.
+A alternativa que mais se adequa a realidade do projeto, é o uso de um servidor local, assim, terá um acesso mais rápido aos dados, uma segurança maior e uma manutenibilidade de qualidade e rápida.
+A Faculdade do Gama possui um servidor para atender suas necessidades, como o portal da FGA , sites de professores, dentre outros serviços. O servidor é do tipo Rack e está localizado na sala 36, do prédio UED. Portanto, os dados obtidos diariamente no projeto, serão armazenados no próprio servidor da faculdade, tendo em vista que ele está disponível para o nosso uso.
+Para o banco de dados será estruturada uma arquitetura de processamento e armazenamento dos dados, utilizando o sistema de gerenciamento de dados MySQL (My Structured Query Language). O MySQL é um sistema de código aberto com base no sistema operacional Windows e muito utilizado por grandes empresas como a NASA(National Aeronautics and Space Administration), Banco Bradesco, entre outras. Esse sistema se destaca em relação aos outros quando o objetivo é obter velocidade de acesso aos dados armazenados, porém a base de dados sendo pequena não se nota diferença de comportamento em relação a velocidade de acesso entre o MySQL e outros sistemas. Utilizando o MySQL o responsável pela manutenção do sistema terá a sua disposição mais níveis de isolamento de transações que em outros sistemas como mostra a tabela ~\ref{table:niveis_isol}.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[]
+\centering
+\caption{Comparação Níveis de Isolamento.}
+\label{table:niveis_isol}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|c|c|c|}
+\hline
+Isolamento & \multicolumn{1}{l|}{Oracle} & \multicolumn{1}{l|}{SQL Server} & \multicolumn{1}{l|}{PostgreSQL} \\ \hline
+Read uncommitted &  & x &  \\ \hline
+Read committed & x & x & x \\ \hline
+Repeatable read &  & x &  \\ \hline
+Serializable & x & x & x \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+Atualmente os sistemas de gerenciamento de banco de dados (SGBDs) suportam vários tipos de storage engines e até mais de uma no mesmo sistema. As engines dos SGBDs são responsáveis por criar, ler, atualizar,  e deletar (do inglês create, read, update and delete. CRUD) os dados no sistema e na tabela ~\ref{table:storage_engines} tem alguns exemplos de engines que são ou não transacionais e as engines que se integram perfeitamente ao sistema MySQL são InnoDB e MyISAM.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[]
+\centering
+\caption{Storage Engines}
+\label{table:storage_engines}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|}
+\hline
+Nome & Licença & Transacional \\ \hline
+Aria & GPL & Não \\ \hline
+BlitzDB & GPL & Não \\ \hline
+Falcon & GPL & Sim \\ \hline
+InnoDB & GPL & Sim \\ \hline
+MyISAM & GPL & Não \\ \hline
+InfiniDB & GPL & Não \\ \hline
+TokuDB & GPL & Sim \\ \hline
+WiredTiger & GPL & Sim \\ \hline
+XtraDB & GPL & Sim \\ \hline
+RocksDB & BSD & Sim \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+O MyISAM é a engine nativa do MySQL e oferece um gerenciamento de dados mais conservativo deixando cada tabela em um arquivo diferente que pode ser comprimido com o comando myisamchk se for necessário diferentemente do InnoDB que armazena as tabelas em um espaço especial para as tabelas, o que impossibilita a otimização do espaço. Algumas funções são executadas com mais eficácia que no InnoDB por causa da complexidade do espaço especial das tabelas do InnoDB \cite{InnoDB}.
+Em compatibilidade com o sistema de gerenciamento de banco de dados MySQL (Linguagem de Consulta Estruturada) o InnoDB se torna a opção mais viável para ser a engine do banco de dados. Além da compatibilidade com o MySQL o InnoDB difere de seu concorrente MyISAM por oferecer a função transacional que implica em um modo de funcionamento “tudo ou nada”. O sistema transacional preza a integridade dos dados, portanto se algum erro ocorrer ou faltar energia/conectividade o sistema não irá gravar os dados pela metade no banco de dados e executará um rollback para os dados anteriores ao erro. Enquanto o tempo de recuperação do MyISAM cresce de acordo com o tamanho do banco de dados a capacidade de rollback do InnoDB economiza tempo diante de uma falha \cite{InnoDB}.
+Com base no estudo da equipe de Automação - Controle de Acesso, serão armazenados e renovados toda vez que o aluno utilizar a carteirinha um token. Além, de cada um possuir um chip, embutido em sua carteirinha. Armazenados então, um dado do tipo inteiro de 4 bytes\cite{microsoft1}, referente ao token. E inicialmente um array de char de 5 caracteres. Cada char possui um tamanho de 1 byte\cite{microsoft1}, tendo então, um dado referente ao chip da carteirinha de 5 bytes. Com isso temos que 5000 mil alunos utilizam 45000 bytes ou 4,5e-5 gigabytes.
+Os dados que serão disponibilizados pelo trabalho da equipe responsável pelo Smart Grid, serão dois do tipo float, 4 bytes\cite{microsoft1} cada, e um do tipo date, 4 bytes\cite{microsoft1}. Respectivamente, um dado sobre o consumo diário, um outro da produção diária, e o dia referente ao consumo/produção, o que totaliza 20 bytes por dia ou 6e-7 gigabytes por mês.
+Considerando cerca de 15 itens, entre sensores e outros dispositivos eletrônicos,  que geram dados por ambiente e 25 ambientes no prédio, o grupo de de automação - Instrumentação e Controle determinou que para cada dispositivo gerando 100 bytes por segundo, cerca de 0.3 gigabytes por mês com mais 5 gigabyte de aplicações para processamento de dados, sem mais dados armazenados de antemão totalizando 14 gigabytes por mês.
+A quantidade de dados obtidos diariamente gerará na faixa de 14,0000006 gigabytes por mês além dos 5.0045 gigabytes já armazenados como dados fixos. Assim, serão armazenados no servidor Rack, já existente na faculdade, e gerenciados pelo InnoDB.
+
+\section{Arquitetura do Aplicativo}
+
+Como forma de informação para usuários do prédio e integração entre as mais diversas funcionalidades dele um aplicativo web-app servirá de ponte ligando os usuários as informações.
+Um web-app é um site com domínio próprio que é acessado por meio de um navegador com o diferencial de ser responsivo, ou seja, sua funcionalidades são flexíveis de forma a permitir adaptação a qualquer dispositivo que o acesse.
+
+\subsection{Model-View-Controller}
+
+Para a arquitetura de software da aplicação web que será interligada ao uso do prédio, foram feitas diversas pesquisas e estudos, e a arquitetura escolhida foi a Model-View-Controller(MVC), em português modelo-visão-controlador.
+
+MVC é um padrão de arquitetura de software que divide a representação da informação da interação do usuário com ele. Desta forma, alterações feitas na interface não afetam a manipulação de dados, e estes poderão ser reorganizados sem alterar a interface.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.45]{figuras/MVC.eps}
+  \caption{Arquitetura Model-View-Controller}
+  \label{fig:mvc}
+\end{figure}
+
+Model: É responsável pelo armazenamento dos dados, assim como a  validação e manipulação deles. A regra é simples: tudo que diz respeito à escrita, validação e leitura dos dados está dentro da camada model.
+View: A camada de interação com o usuário e também de exibição de dados. Ela faz a  exibição dos dados, sendo ela por meio de um html ou xml.
+Controller: É responsável por receber todas as requisições do usuário. Seus métodos, chamados actions, são responsáveis pela página, controlando qual model usar e qual view será mostrado ao usuário.
+Neste projeto, tanto o back-end quanto o front-end farão uso do framework Rails. Sua organização de pastas segue a organização descrita na figura ~\ref{fig:pastas}:
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.4]{figuras/pastas.eps}
+  \caption{Estrutura de Diretórios do Aplicativo}
+  \label{fig:pastas}
+\end{figure}
+
+\subsection{Model-View-ViewModel}
+
+MVVM é um padrão arquitetural, que impõe uma separação da interface do usuário XAML (a View) dos dados subjacentes (a Model) através de uma classe que serve como um intermediário entre a View e a Model (ViewModel). View e ViewModel geralmente são conectadas através de ligações de dados (binding) definidas no arquivo XAML.
+A Model é responsável por realizar o gerenciamento e validação de dados bem como o estado da aplicação.
+A View é a interface de usuário, exibe informações ao usuário, e responde às interações.
+A ViewModel é a classe que estabelece a conexão entre View e Model, atualizando os dados na Model, que foram modificados através dos eventos na View.
+Os testes são realizados sobre a ViewModel, pois é ela que possui toda a lógica necessária para que a View possa funcionar de forma esperada, e a ViewModel não tem conhecimento sobre nada na View.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.6]{figuras/MVVM.eps}
+  \caption{Arquitetura MVVM}
+  \label{fig:mvvm}
+\end{figure}
+
+\section{Escolha da Arquitetura}
+
+Considerando os padrões MVVM (Model-View-ViewModel) e MVC (Model-View-Controller), não existe um superior ao outro, mas sim qual se adequa melhor ao projeto a ser desenvolvido. No caso do Prédio Sustentável, a aplicação web será construída utilizando Ruby on Rails, que por padrão é MVC.
+
+\section{Protótipo de Alta Fidelidade}
+\label{sec:prot}
+Para melhor entendimento do aplicativo foi realizado um protótipo de alta fidelidade onde é possível vizualizar uma representação do aplicativo, suas funcionalidades e a forma de acesso a elas.
+
+Um protótipo de alta fidelidade é um artefato que se assemelha ao produto final apoiando a avaliação de todos os detalhes de um design de forma a trazer mais clareza para desenvolvedores e usuários.
+
+O protótipo de alta fidelidade do aplicativo foi estabelecido de acordo com as imagens que estão disponíveis no anexo \ref{protot}.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.6]{figuras/prot-0.eps}
+  \caption{Protótipo do Login do Aplicativo}
+\end{figure}
