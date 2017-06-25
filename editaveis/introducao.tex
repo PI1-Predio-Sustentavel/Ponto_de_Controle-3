@@ -38,37 +38,88 @@ números de fraudes nas listas de chamadas nas disciplinas.
  geradas pelos requisitos
 
 \chapter{Escopo}
-Para a realização do projeto Prédio inteligente deve-se definir as especificações do limite que contempla o projeto, para isso foi necessário definir os requisitos e analisá-los e aplicar alguns métodos para facilitar a definição do escopo como o dos 5W e 2H representado abaixo:
+\section{Introdução}
 
-1-What -O que será feito ?
+Um ponto importante para a realização do projeto Prédio inteligente foi definir as
+especificações-limite que o projeto contempla. Para tal fim utilizou-se a técnica 5W2H.
 
-2-Who- Por quem será feito ?
+Dessa forma o escopo definido inclui a construção de um novo prédio na FGA, porém,
+sem nenhuma modificação nos prédios já existentes. Ressalta-se entretanto, que algumas das soluções
+aqui apresentadas tem potencial para serem utilizadas nos prédios existentes, caso a Universidade
+de Brasília assim deseje, mas não faz parte do escopo deste trabalho definir isto.
 
-3-Where- Onde será feito ?
+Este projeto foi dividido em cinco frentes principais, de acordo com suas áreas de atuação:
+\begin{itemize}
+  \item \textbf{Estrutura e Materiais:} Responsável pela escolha e aplicação de materiais inteligentes na estrutura,
+  otimização da planta e organização do espaço interno.
 
-4-When-Quando será feito?
+  \item \textbf{Smart Grid:} Responsável pela a  escolha e dimensionamento, de forma eficiente, do tipo de energia
+  a ser utilizada para suprir a demanda energética da FGA.
 
-5-Why-Por que será feito?
+  \item \textbf{Automação 1 - Controle de Acesso:} Responsável pelo controle de acesso à universidade, salas e
+  laboratórios, além do registro de frequência durante as aulas.
 
-6-How-Como será feito ?
+  \item \textbf{Automação 2 - Instrumentação e Controle:} 	Responsável pela implantação dos dispositivos de
+  instrumentação e controle do prédio. Isto engloba sensores, equipamentos de automação das salas e os
+  equipamentos de controle e processamento destes dados.
 
-7-How Much- Quanto custará?
+  \item \textbf{Interfaces e Processamento de Software:} Responsável pelo processamento de todos os dados fornecidos
+  pelos grupos anteriores, bem como sua disponibilização aos usuários por meio de interfaces gráficas.
+\end{itemize}
 
-Dessa forma o escopo foi definido como sendo o Prédio Sustentável inteligente da Faculdade do Gama(FGA) e pode ser melhor observado na EAP visto que a mesma guia a equipe para o término do projeto,não incluindo geração de energia ou algum sistema tecnológico para outra parte do campus exceto o estacionamento parte fundamental do campus que ainda não foi concluída e pode ser resolvida com ideias que possuem nesse projeto, esse escopo foi decidido com base: no  alto custo financeiro para suprir toda demanda energética do campus, futuras alterações de estruturas e dimensões dos prédios já construídos e pelo tempo de entrega do projeto.Por fim,foi realizado um escopo para que futuramente a Universidade de Brasília pudesse aproveitá-lo para a construção do novo prédio trazendo assim conforto e ferramentas necessárias para todos que necessitam do mesmo para absorver conhecimento (stakeholders).
+As soluções para cada parte do projeto são abordadas a seguir.
 
-Outra subdivisão do nosso projeto, trata da parte de controle de acesso, que é responsável por monitorar todo o acesso de pessoas feito neste nosso prédio tecnológico dentro da FGA. Levando em conta que o nosso trabalho é feito em uma universidade federal, não podemos fechar completamente o acesso à universidade, entretanto nosso objetivo é selecionar quem terá ou não acesso a partes específicas dentro do novo prédio.
+\section{Soluções}
 
-Inicialmente a ideia é restringir uma parte do estacionamento só para alunos matriculados na faculdade, e para que seja liberada a entrada, é necessário a liberação automática mediante apresentação de carteirinha, em seguida, o acesso também será restringido nas salas e laboratórios com trancas que serão acopladas nas portas, no caso de laboratórios e salas com equipamentos mais sofisticados, somente será autorizada a entrada com um professor como responsável pelo uso do ambiente, e no caso das salas simples, também haverá necessidade de um responsável, contudo, poderá ser tanto aluno, monitor ou professor. A frequência também será averiguada mediante carteirinha em um aparelho eletrônico portátil que cada professor possuirá. Essa tecnologia e modo de segurança já é utilizado em várias universidades do mundo e especialmente em algumas faculdades particulares em Brasília e por isso é uma ideia a ser implementada dentro da UnB principalmente por questão de segurança.
+Na parte estrutural do projeto serão aplicados materiais inteligentes e
+sustentáveis para amenizar a produção de resíduos e, consequentemente, o impacto
+no meio ambiente. Além disso, serão consideradas algumas adaptações sobre o uso
+das salas para se possa receber o sistema de automação e também definir que espaços serão
+destinados a laboratórios ou salas de aula, de acordo com as necessidades dos
+usuários. Por fim, haverá a alteração da posição dos elementos usados em sala
+para melhorar o impacto que os mesmos têm no aprendizado.
 
-Na parte estrutural do projeto serão aplicados materiais inteligentes e sustentáveis para amenizar a produção de resíduos e consequentemente o impacto no meio ambiente. Além disso, serão consideradas algumas adaptações sobre o uso das salas para se possa receber o sistema de automação e também quais serão destinadas a laboratórios ou salas de aula, de acordo com as necessidades dos usuários. Por fim, haverá a alteração da posição dos elementos usados em sala para melhorar o impacto que os mesmos têm no aprendizado.
+Para a produção energética foram consideradas duas formas de suprir a demanda
+energética da FGA: a primeira e principal é a geração de energia por meio de
+placas fotovoltaicas, e a segunda, que será utilizada como fonte reserva, será
+o suprimento por meio de um gerador movido a biodiesel, ativado caso haja algum
+problema ou manuntenção nas placas fotovotaicas.
 
-Para a produção energética foi considerada duas formas para suprir a demanda energética da FGA a primeira e principal é a geração de energia por meio de placas fotovoltaicas e a segunda sendo utilizada como reserva será por meio de um gerador movido a biodiesel.
+O projeto propõe o controle do acesso à Faculdade. Levando em conta que se trata de uma
+universidade pública, não pode-se fechar completamente o acesso,
+entretanto o objetivo é selecionar quem terá ou não acesso a partes
+específicas dentro do novo prédio.
 
-Tendo que até 7 mil pessoas, aproximadamente, podem utilizar o prédio, número de pessoas que também é a capacidade máxima do prédio, temos que o controle de acesso ao prédio custará em média 18.459,44 reais, considerando o preço de carteirinhas e aparelhos de controle de acesso nas salas e no estacionamento. Os custos relacionando a interface e processamento de dados estão atrelados a quanto custará o desenvolvimento do aplicativo e a incrementação no banco de dados para armazenar e processar os novos dados, com isso temos que em média será gasto 70.000,00 reais.
+Inicialmente a ideia é restringir uma parte do estacionamento só para alunos
+matriculados na faculdade, o acesso também será restringido nas salas e laboratórios com trancas que serão acopladas
+nas portas. No caso de laboratórios e salas com equipamentos mais sofisticados,
+somente será autorizada a entrada com um professor como responsável pelo uso do
+ambiente. Em relação a salas simples, também haverá necessidade de um
+responsável, contudo, poderá ser tanto aluno, monitor ou professor.
 
-A instrumentação e controle envolve aparelhos e sensores que vão identificar condições do prédio e realizar ambientação nas salas custando aproximadamente 63179,00 reais. As estruturas e materiais do prédio custarão por volta de 1041797,10 de reais.
+O controle de frequência também será averiguado em um aparelho eletrônico portátil
+que cada professor possuirá. Essa tecnologia e modo de segurança já é utilizado
+em várias universidades do mundo e especialmente em algumas instituições privadas
+em Brasília. Esta medida será implementada dentro da UnB
+principalmente por questões de segurança.
 
-O controle energético do prédio é feito de forma inteligente e esse controle e as diferentes formas de geração de alternativas de energia custará aproximadamente 1.000.000,00 de reais, totalizando para todo prédio um valor próximo de 3.000.000,00 (3 milhões) de reais.
+Tendo que até 7 mil pessoas, aproximadamente, podem utilizar o prédio, temos que o controle de
+acesso ao prédio custará em média R\$ 19.000,00, considerando o preço de
+carteirinhas e aparelhos de controle de acesso nas salas e no estacionamento. Os
+custos relacionando a interface e processamento de dados estão atrelados a
+quanto custará o desenvolvimento do aplicativo e a incrementação no banco de
+dados para armazenar e processar os novos dados, com isso temos que em média
+será gasto R\$ 70.000,00. A instrumentação e controle envolve aparelhos e sensores que vão identificar
+condições do prédio e realizar ambientação nas salas custando aproximadamente
+R\$ 65.000,00. As estruturas e materiais do prédio custarão por volta de
+R\$ 1.050.000,00.
+
+O controle energético do prédio é feito de forma inteligente e esse controle e
+as diferentes formas de geração de alternativas de energia custarão
+aproximadamente R\$ 1.000.000,00, totalizando para todo prédio um valor
+próximo de R\$ 3.000.000,00 (3 milhões) de reais. Ressalta-se, porém, que este
+valor não inclui quaisquer gastos com mão de obra, construção, etc, pois isto
+não faz parte do escopo do projeto.
 
 \chapter{Requisitos\label{ch:requisitos}}
 \section{Backlog do Produto}
