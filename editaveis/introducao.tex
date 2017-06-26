@@ -170,7 +170,9 @@ Risco é um evento ou uma condição incerta que, se ocorrer, provocará um efei
 \begin{itemize}
   \item Técnico
     \begin{itemize}
-      \item Inexperiência em construção civil: Diz respeito a falta de familiaridade do grupo com técnicas pautadas na engenharia civil.
+      \item \textbf{Inexperiência em construção civil:} Diz respeito a falta de familiaridade do grupo com técnicas pautadas na engenharia civil.
+      \item \textbf{Falha na Conexão:} Diz respeito a possíveis falhas na conexão de internet no prédio novo.
+      \item \textbf{Falta de Energia:} Diz respeito a possível falta de energia elétrica no prédio novo.
     \end{itemize}
   \item Externo
   \begin{itemize}
@@ -196,11 +198,11 @@ Risco é um evento ou uma condição incerta que, se ocorrer, provocará um efei
 
 \end{itemize}
 
-\pagebreak
 
 \section{Registro de Riscos Identificados}
 \subsection{Riscos Negativos}
-\begin{table}[h]
+\pagebreak
+\begin{table}[!h]
   \centering
   \caption{Registro dos Riscos Negativos}
   \begin{tabular}{|l|c|l|l|}
@@ -217,8 +219,12 @@ Risco é um evento ou uma condição incerta que, se ocorrer, provocará um efei
     \parbox[t]{5cm}{Inexperiência da equipe em projetos grandes.}                   & R08                    & \parbox[t]{4cm}{Problemas de gerência de projeto}                                         & \parbox[t]{4cm}{Membros nunca trabalharam em um grande projeto}                                           \\ \hline
     \parbox[t]{5cm}{Ausência de informações quanto à documentação a ser elaborada.} & R09                    & \parbox[t]{4cm}{Documentação entregue incompleta}                                         & \parbox[t]{4cm}{Falta de fontes de informação sobre a necessidade de documentos e informações no projeto} \\ \hline
     \parbox[t]{5cm}{Inexperiência quanto à construção civil.}                       & R10                    & \parbox[t]{4cm}{Membros desconhecem diretrizes da contrução civil necessárias ao projeto} & \parbox[t]{4cm}{Projeto escohido envolve estruturação de um prédio}                                       \\ \hline
+    \parbox[t]{5cm}{Falha na Conexão.}                       & R11                    & \parbox[t]{4cm}{Equipamentos de automação ficam operáveis apenas manualmente, e alguns dados do momento poderão ser perdidos.} & \parbox[t]{4cm}{Interrupção do fornecimento pela operadora; Pane no servidor local; Pane na transmissão; Problemas de Software.}                                       \\ \hline
+    \parbox[t]{5cm}{Falta de Energia.}                       & R12                    & \parbox[t]{4cm}{Automação ficará desligada.} & \parbox[t]{4cm}{Corte pela operadora; Falhas causadas pela operadora.}                                       \\ \hline
   \end{tabular}
 \end{table}
+
+\pagebreak
 
 \subsection{Riscos Positivos}
 \begin{table}[h]
@@ -335,20 +341,21 @@ Mitigar          & \parbox[t]{7cm}{Essa técnica consiste na redução da probab
     R04                    & Moderada               & Médio            & \parbox[t]{5cm}{Evitar - Combrança maior por parte dos líderes motivando a equipe e em caso de desistencia realocar atividades e refazer planejamento}                                    \\ \hline
     R05                    & Moderada               & Médio            & \parbox[t]{5cm}{Mitigar - Manter um planejamento coerente com base em pesquisas de outras fontes para manter o planejamento coerente e replanejar caso o problema já tenha ocorrido}      \\ \hline
     R06                    & Baixo                  & Muito Alto       & \parbox[t]{5cm}{Aceitar - Manter contato constante com o cliente para que o mesmo não se surpreenda negativamente com o resultado final}                                                  \\ \hline
+  \end{tabular}
+\end{table}
+
+\begin{table}[!h]
+  \centering
+  \caption{Análise, Identificação e Respostas aos Riscos}
+  \begin{tabular}{|c|c|c|l|}
+    \hline
+    \multicolumn{4}{|c|}{\textbf{Riscos Negativos}}                                                                                                                                                                                               \\ \hline
+    \textbf{Identificador} & \textbf{Probabilidade} & \textbf{Impacto} & \multicolumn{1}{c|}{\textbf{Ação}}                                                                                                                                       \\ \hline
     R07                    & Baixo                  & Alto             & \parbox[t]{5cm}{Aceitar - Fazer calendário de atividades e entregas cumprindo-o durante todo o projeto}                                                                                   \\ \hline
     R08                    & Muito Alta             & Alto             & \parbox[t]{5cm}{Mitigar - Pesquisar sobre gerencia de grandes projetos e pedir ajuda aos professores para evitar ociosidade e sobrecarga}                                                 \\ \hline
     R09                    & Alto                   & Alto             & \parbox[t]{5cm}{Evitar - Perguntar aos professores sobre os entregáveis e pesquisar quais são os principais artefatos de gerência de projetos utilizados}                                 \\ \hline
     R10                    & Muito Alta             & Alto             & \parbox[t]{5cm}{Mitigar - Conseguir informações externas com professores, livros e sites para entender melhor o funcionamento da área e evitar problemas no projeto} \\ \hline
+    R11                    & Baixo             & Alto             & \parbox[t]{5cm}{Mitigar - Utilizar uma conexão cabeada, caso a coneção sem fio falhe.} \\ \hline
+    R12                    & Baixo             & Alto             & \parbox[t]{5cm}{Mitigar - Geração de energia reserva com gerador movido à biodiesel.} \\ \hline
   \end{tabular}
 \end{table}
-
-\chapter{EAP}
-A Estrutura Analítica de Projetos (EAP), é uma ferramenta visual que é feita a partir da decomposição das etapas do projeto em ordem cronológica. Ela funciona como um facilitador para a identificação de cada etapa do projeto, facilita os processos de gerenciamento e entregas bem como a estimativa de esforço, custo e duração do mesmo. Além da principal função, a definição do escopo do projeto. A EAP é representada em diagrama, começando do tópico mais geral, em seguida as principais etapas, e por fim as entregas que cada etapa necessita.
-
-Para o projeto do Prédio Inteligente elaborou-se uma EAP para que fosse mais fácil a visualização das etapas que devem ser seguidas, além da definição do escopo do mesmo. Essa ferramenta também serve para que todos da equipe tenham acesso à modo que o projeto será desenvolvido. Sendo assim, as fases principais foram divididas em: Planejamento, Justificativa das Soluções e Viabilidade Econômica. Implicitamente estas fases representam os Pontos de Controle 1, 2 e 3 respectivamente. Consequentemente, foram definidas as entregas que devem ser feitas para cada Ponto de Controle.
- \begin{figure}[!h]
- 	\centering
- 	\includegraphics[keepaspectratio=true,scale=0.37]{figuras/eap.eps}
- 	\caption{EAP do Projeto Prédio Inteligente}
- 	\label{fig01}
- \end{figure}
