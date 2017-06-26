@@ -9,76 +9,157 @@ Segue-se as especificações do projeto. Estas estão divididas conforme as áre
 
 \section{Estruturas e Materiais}
   \begin{itemize}
-    \item Geometria do Prédio:
+    \item Otimização da planta:
     \begin{itemize}
-      \item Planta
-      \item Posicionamento dos “móveis” no prédio (quadros, carteiras etc)
+      \item Definição das funcionalidades dos espaços
+      \begin{itemize}
+      \item 1 Lanchonete
+      \item 1 Xerox
+      \item 1 Sala de controle
+      \item 2 Salas de computadores
+      \item 11 Salas de aulas
+      \item 9 Laboratórios
+      \item 1 Sala de estudos
+      \end{itemize}
+      \item Posicionamento do prédio
+      \begin{itemize}
+      \item Uso da carta solar para alívio térmico
+      \begin{itemize}
+      \item Salas de aula voltadas para leste
+      \end{itemize}
+      \end{itemize}
+      \item Soluções para poeira
+      \begin{itemize}
+      \item Brises
+      \item Jardins Verticais
+      \item Arborização
+      \end{itemize}
+      \item Soluções para climatização
+      \begin{itemize}
+      \item Ar-condicionado
+      \end{itemize}
     \end{itemize}
-    \item Materiais de Auto Reparo
-    \item Materiais Preventivos
-    \item Materiais isolantes e otimização energética
-    \item Aplicações dos Materiais
-    \item Otimização da Limpeza do Prédio
+    \item Organização interna:
+  \begin{itemize}
+  \item Disposição dos equipamentos na sala para melhorar a interação dos alunos com os mesmos
+    \item Otimização da sala
+    \begin{itemize}
+    \item Quadros panorâmico
+  \item Tablados de madeira
+  \item Tomadas distribuídas
+  \item Caixas de som
+    \end{itemize}
+  \end{itemize}
+    \item Materiais sustentáveis:
+    \begin{itemize}
+    \item Cimento de Alto Desempenho(CAD)
+    \begin{itemize}
+    \item Peso próprio reduzido
+  \item Redução de custos
+    \end{itemize}
+    \item Estruturas de Aço
+    \begin{itemize}
+    \item Possibilidade de reciclagem
+    \end{itemize}
+  \item Esquadrias de PVC
+    \begin{itemize}
+    \item Não necessitam de manutenção
+    \end{itemize}
+    \item Tintas Ecológicas
+    \begin{itemize}
+    \item Não agridem o meio ambiente
+    \end{itemize}
+    \end{itemize}
   \end{itemize}
 \section{Smart Grid}
 
   \begin{itemize}
-    \item Planejamento Energético
-    \item Balanço Energético
     \item Tipos de energia a serem utilizados
     \begin{itemize}
       \item Solar
         \begin{itemize}
           \item Normas CEB
-          \item Números de placas necessárias
-          \item Posicionamento das placas
-          \item Modelos das Placas (melhor custo benefício)
+          \item 440 placas necessárias 
+          \item Placas posicionadas no telhado
+          \item Modelos das Placas - 260w
+          \item 5 Inversores de 20Kw
+          \item Estimativa energética 23.000kwh/mês
+          \item Dimensionamento do sistema fotovoltaico 
+          \begin{itemize}
+          \item 440 placas
+      \item 5 Inversores
+        \item 5 string box
+      \item Data Logger
+      \item Medidor bidirecional 
+      \item 5 multimedidores de energia
+          \end{itemize}
         \end{itemize}
-
-        \item Gerador movido a biodiesel
-      \item Manutenções
-      \item Sistema automático de limpeza
-    \end{itemize}
-
-    \item Desperdício de energia
+      \item Gerador movido a biodiesel
       \begin{itemize}
-        \item Luzes acesas
-        \item Computadores ligados
-        \item Verificação de quantidade energética consumida
+          \item Quantidade de litros de Biodiesel necessários: 73,5 litros 
+      \item Relacionado ao Projeto  Biogama
+          \end{itemize}
+      \item Manutenções
+      \begin{itemize}
+      \item Equipamento que verifica a funcionalidades das placas: DATA LOGGER
+    \item Verificação de quantidade energética consumida
+    \item Verificação de quantidade energética gerada
+    \item Reciclagem das placas
       \end{itemize}
-    \item Desperdício e Reaproveitamento de Água
+    \end{itemize}
   \end{itemize}
 
 \section{Interfaces e Processamento de Software}
 
   \begin{itemize}
-    \item Informações sobre o consumo de energia
+    \item Aplicativo
       \begin{itemize}
+        \item Informações sobre o consumo de energia
+        \begin{itemize}
         \item Exibir consumo de energia
         \item Exibir quantidade de energia gerada localmente
       \end{itemize}
-    \item Controle de presença
-      \begin{itemize}
+        \item Informações sobre salas
+        \begin{itemize}
         \item Exibir lotação das salas
-      \end{itemize}
-    \item Informações sobre salas
-      \begin{itemize}
         \item Verificar disponibilidade da sala
         \item Reservar uma sala
       \end{itemize}
-    \item Informações sobre objetos
-      \begin{itemize}
-        \item Verificar localização de um objeto
+         
         \item Notificar defeitos em objetos
+        \begin{itemize}
+        \item Ler e enviar código presente nos objetos
       \end{itemize}
-    \item Softwares embarcados
-      \begin{itemize}
+      \end{itemize}
+     \item Processamento de dados
+     \begin{itemize}
         \item Processar dados sobre energia
+        \begin{itemize}
+        \item Processar dados dos inversores e fazer estimativa de produção energética.
+        \item Coletar produção e consumo de energia para disponibilizar no aplicativo
+        \end{itemize}
         \item Processar dados sobre sensores
+        \begin{itemize}
+        \item Processar dados vindos dos sensores preventivos que detectam problemas no prédio
+        \item Processar dados vindos dos sensores preventivos que detectam problemas no prédio
+        \item Processar dados da ambientação da sala e proporcionar o controle das funções som, ar condicionado, lâmpada e persianas
+        \end{itemize}
       \end{itemize}
-    \item Aplicativo
-      \begin{itemize}
-        \item Fornecer acesso às funcionalidades anteriores
+     \item Banco de Dados
+          \begin{itemize}
+        \item Armazenar dados energéticos
+        \begin{itemize}
+        \item Geração e consumo de energia
+      \end{itemize}
+        \item Armazenar dados do controle de acesso
+        \begin{itemize}
+        \item Dados dos alunos e seus respectivos ids nas carteirinhas bem como um token gerado aleatoriamente.
+        \end{itemize}
+        \item Armazenar dados dos sensores para realizar um levantamento periódico das condições dos prédios
+        \begin{itemize}
+        \item Analisar sensores de calor, iluminação, movimento.
+        \end{itemize}
+
       \end{itemize}
   \end{itemize}
 
@@ -87,21 +168,38 @@ Segue-se as especificações do projeto. Estas estão divididas conforme as áre
     \item Sistema RFID
       \begin{itemize}
         \item Sistema semelhante ao usado em BRT’s e metrô.
+        \item Mantêm a comunicação com todos os subgrupos de controle de acesso
       \end{itemize}
-    \item Controle de Entrada de Carros
+    \item Controle de Acesso no estacionamento privativo
       \begin{itemize}
-        \item Código de barras da carteirinha acoplado no retrovisor do carro para autorizar a entrada de carro dos alunos
+        \item Apresentação da carteirinha no aparelho que lê as informações do chip do documento
+        \item Comunicação dos dados da carteirinha com a cancela
       \end{itemize}
-    \item Controle de Entrada nas Salas
+    \item  Controle de Entrada nas Salas e Laboratórios
       \begin{itemize}
-        \item Ao entrar na sala, uso da biometria
+        \item A fechadura é conectada com o aparelho que lê as informações do chip do documento e reconhece a pessoa como professor(a) ou como aluno responsável pela sala naquele período de tempo
         \item Controle de Acesso dos Alunos
+        \begin{itemize}
+        \item Alunos precisam pedir uma liberação dada pela secretaria do prédio
+        \item O tempo dos alunos nas salas é limitado
+        \item Um aluno especificamente será o responsável pela sala durante o horário estipulado
+        \item Caso o aluno responsável precise se ausentar da sala, outro terá que se encaminhar à secretaria e transferir a responsabilidade da sala
+        \end{itemize}
         \item Controle de Acesso dos Professores
+        \begin{itemize}
+        \item Todos professores podem entrar em qualquer sala ou laboratório e em qualquer horário
+        \end{itemize}
       \end{itemize}
-    \item Automatização de Chamada
+    \item Controle de frequência nas aulas
       \begin{itemize}
-        \item Aparelho portátil que lê a digital dos alunos (biometria), substituindo a chamada escrita
+        \item Aparelho portátil que lê as informações do chip da carteirinha e reconhece o aluno por nome completo e matrícula
+        \begin{itemize}
+        \item O aparelho é propriedade de cada professor
+        \end{itemize}
         \item Usar o código de barra da carteirinha para validar presença;
+        \item No aparelho são arquivadas as matérias, com código, e horários de cada professor individualmente
+        \item O funcionamento não depende de internet WiFi durante seu uso, entretanto, só com internet é possível armazenar todos os dados anteriormente inseridos
+        \item Gera um token para cada carteirinha no banco de dados da universidade impedindo plágios
       \end{itemize}
   \end{itemize}
 \section{Instrumentação e Controle (Automação 2)}
@@ -109,39 +207,65 @@ Segue-se as especificações do projeto. Estas estão divididas conforme as áre
     \item Ambientação da Sala
       \begin{itemize}
         \item Persianas Inteligentes
+        \begin{itemize}
+          \item Regulagem de luz natural
+            \item Controle de Poeira
+            \item Isolamento Acústico
+        \end{itemize}
         \item Ares-condicionados
+        \begin{itemize}
+          \item Climatização independente de cada sala
+            \item Controle centralizado
+        \end{itemize}
         \item Lâmpadas inteligentes
+        \begin{itemize}
+          \item Sensor de presença
+            \item Regulagem de luz autônoma
+            \item Controle centralizado
+        \end{itemize}
         \item Sistema de Som
-      \end{itemize}
-
-    \item Painéis de Controle
-      \begin{itemize}
-        \item Controles embutidos na mesa inteligente
-        \item Controle geral para a sala
-        \item Sala de controle (Prédio)
-      \end{itemize}
-
-    \item Sensores
-      \begin{itemize}
-        \item Lâmpadas inteligentes
-        \item Sensor de movimento
-        \item Sensor de calor (Incêndio)
-        \item Sensor de iluminação
+        \begin{itemize}
+          \item Fácil acesso
+            \item Melhoria da acústica
+        \end{itemize}
       \end{itemize}
     \item Digitalização e Integração dos equipamentos para aula
       \begin{itemize}
         \item Mesa inteligente
-        \item Sistema de som
-        \item Quadro inteligente
+        \begin{itemize}
+          \item Acesso à internet
+            \item Auxílio para o professor durante a aula
+            \item Controle centralizado para equipamentos
+            \item Conexão Bluetooth
+            \item Conexão WiFi
+            \item Conexão Infravermelho
+        \end{itemize}
         \item Sistema de projetores
+        \begin{itemize}
+          \item Exibição de vídeos e slides durante as aulas
+            \item Conexão com a Mesa Inteligente 
+        \end{itemize}
       \end{itemize}
     \item Status da Sala
       \begin{itemize}
         \item Painel informativo
+         \begin{itemize}
+          \item Exibição de informações sobre o estado da sala
+            \item Exibição de informações sobre aulas
+            \item Exibição de informativos de assuntos diversos
+        \end{itemize}
       \end{itemize}
     \item Monitoramento do Prédio
       \begin{itemize}
-        \item Feedback do funcionamento e uso dos equipamentos eletrônicos 
+        \item Feedback do funcionamento e uso dos equipamentos eletrônicos\begin{itemize}
+          \item Fornecimento de estatísticas de uso
+            \item Monitoramento do funcionamento de equipamentos
+            \item Manutenção preditiva
+            \item Prevenção de falhas
+        \end{itemize}
+        
+        
       \end{itemize}
   \end{itemize}
+
 \end{apendicesenv}
