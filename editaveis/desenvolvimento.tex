@@ -6,19 +6,19 @@
 \subsection{Adaptações da planta}
 As soluções apresentadas para a parte estrutural do projeto são apenas sugestões, visto que as decisões efetivas devem ser feitas por um profissional de engenharia civil, de soluções para os problemas que o prédio UAC (Unidade Acadêmica) apresenta, cuja a planta baixa foi usada para a análise dos problemas, visando uma estrutura que aproveite melhor os recursos naturais e seja mais sustentável.
 Similarmente, para realizar este projeto, foi necessária uma adaptação de elementos relativos a automação predial à um projeto de construção civil comum com integração do sistema Smart Grid, dando ênfase na sustentabilidade. Também foi necessária a integração entre de uma sala de controle para o sistema de automação do prédio.
-Um sistema de automação pode ser centralizado ou distribuído. Os centralizados são aqueles que utilizam uma seção especificamente para o controle dos dispositivos, tanto para receber quanto enviar sinais. Os sistemas distribuídos são considerados descentralizados porque utilizam de diversos dispositivos, cada um com uma função específica dentro do sistema, sendo distribuídos por toda instalação e interligados por uma rede \cite{dias2004}.
+Um sistema de automação pode ser centralizado ou distribuído. Os centralizados são aqueles que utilizam uma seção especificamente para o controle dos dispositivos, tanto para receber quanto enviar sinais. Os sistemas distribuídos são considerados descentralizados porque utilizam de diversos dispositivos, cada um com uma função específica dentro do sistema, sendo distribuídos por toda instalação e interligados por uma rede (Dias, 2004).
 Considerando que a rede de automação a ser implementada possui um sistema centralizado, viu-se a necessidade de um local específico para controlar e monitorar o sistema. Já para promover a integração do Smart Grid ao projeto, foi constatado que o melhor ponto para a instalação das placas fotovoltaicas seria no telhado, onde há maior contato com sol, menor projeção de sombras e resguardado de contato de animais e pessoas. Quanto à posição da placa, esta deverá estar voltada para o norte.
 A função das salas foi baseada na necessidade do prédio, a qual consta adicionar mais salas de aula e de laboratório no campus. Dada a quantidade de alunos que ingressam todo semestre, somente os prédios atuais não são capazes de atender a demanda, são providas cerca de 140 vagas pelo Vestibular da Universidade de Brasília e pelo ENEM, com a pouca quantidade de formaturas por semestre, o campus está sobrecarregado.
 Considerando a efetiva carência foi estabelecido que as salas do pavimento inferior serão designadas para laboratórios, enquanto as do pavimento superior cumprirão função de salas de aulas. Haverá adicionalmente uma sala de estudos no lugar que se dispõe a biblioteca do prédio atual de salas e no lugar da secretaria, no prédio inteligente constará a sala de controle. O pavimento superior também contará com um espaço para Xerox e ao lado, mais salas.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=1]{figuras/plantabaixa1.eps}
   \caption{Planta Baixa com finalidade das salas - Piso Inferior}
   \label{fig:planta_salas_inferior}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=1]{figuras/plantabaixa2.eps}
   \caption{Planta baixa com finalidade das salas - Piso superior}
@@ -27,7 +27,7 @@ Considerando a efetiva carência foi estabelecido que as salas do pavimento infe
 
 O motivo para a realização da modelagem 3D do prédio é a facilidade de ver como será o prédio após a sua construção.Além de facilitar a visualização de qualquer problema que tenha passado despercebido na planta. Também facilita prever como as pessoas passarão pelo prédio e como também elas poderão se acomodar dentro do mesmo. Um desenho em duas dimensões não é capaz de passar a quantidade de informações que um modelo em três dimensões passa para seu observador.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=1]{figuras/modelagemautocad.eps}
   \caption{Modelagem 3D- Pisos inferior e superior da esquerda para direita}
@@ -38,7 +38,7 @@ O motivo para a realização da modelagem 3D do prédio é a facilidade de ver c
 
 Um dos problemas mais latentes observado pelos usuários do prédio é a temperatura elevada que permanece nas salas, o que causa grande desconforto para os mesmo. Para encontrar uma solução, foi analisado a relação da incidência solar com posicionamento do prédio. Dessa forma, por meio do programa SOL-AR 6.2 fornecido pela UFSC, foi possível obter a carta solar de Brasília para análise do melhor posicionamento do novo prédio do campus da FGA.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=1]{figuras/cartasolar.eps}
   \caption{Carta Solar de Brasília: até junho e após junho respectivamente}
@@ -47,7 +47,7 @@ Um dos problemas mais latentes observado pelos usuários do prédio é a tempera
 
 O resultado da carta solar é um par de eixos ordenado com o eixo das abcissas representando a hora do dia variando de 6 às 18 e o eixo das ordenadas representa os dias do ano e cada ponta desse par de eixos representa uma direção geográfica (Norte, Sul, Leste e Oeste) e a partir do sistema de cores é possível fazer o estudo da região. Analisando os resultados obtidos nota-se que o Leste apresenta uma radiação mais amena do que a Oeste que conta com grande irradiação solar, ou seja, maior temperatura ao longo do dia. Como as salas de aula são lugares de longa permanência o ideal é que elas fiquem voltadas ao Leste devido a temperatura se manter mais amena ao longo do dia.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=1]{figuras/posicionamentodoprediointeligente.eps}
   \caption{Posicionamento do Prédio Inteligente}
@@ -58,7 +58,7 @@ Porém como o Sol nasce ao leste seu reflexo poderia atrapalhar o rendimento das
 Outro problema que aflige a estrutura é a poeira proveniente dos arredores do campus, problema este que também pode ser amenizado com os brises mencionados anteriormente e também com uso de cobogós e jardins verticais. Porém, com exceção do jardim vertical, os brises e cobogós já foram implementados no prédio atual. Dessa forma, cabe fazer a análise de jardins verticais como recurso para amenizar o problema.
 O ar do Gama é muito seco o que favorece a permanência da poeira no ar, além de secar as vias respiratórias. Dessa forma o controle da umidade é essencial para mitigar o problema da poeira no campus. Algumas soluções podem ser tomadas para aumentar a umidade ar como a arborização no campus e uso de jardins verticais. Estas foram escolhidas para o projeto pois apresentam certas vantagens como descrito na tabela. A água para irrigação das árvores e dos jardins poderá ser proveniente do poço já existente que abastece o campus ou também por um reservatório que reaproveita água da chuva. Para o último, o dimensionamento dependerá de diversos fatores que vão além do escopo deste projeto como: tipo de irrigação e vazão do mecanismo, espécie de planta a ser usada e litros/dia de água que esses recursos vão necessitar, além da análise de temporadas de chuvas na região do DF.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=1]{figuras/tabela_vantagens_e_desvantagens_do_jardim_vertical.eps}
   \caption{Tabela com vantagens e desvantagens de arbustos e jardins verticais}
@@ -67,7 +67,7 @@ O ar do Gama é muito seco o que favorece a permanência da poeira no ar, além 
 
 Além desse recurso natural, faz-se necessário o uso de um climatizador para solucionar o desconforto provocado pela poeira, que impede um uso mais eficaz das janelas. Segue uma tabela comparativa do recursos considerados para a solução.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=1]{figuras/tabela_vantagens_e_desvantagens_do_climatizador.eps}
   \caption{Tabela com vantagens e desvantagens do uso de ar-condicionados,climatizadores e ventiladores}
@@ -77,7 +77,7 @@ Além desse recurso natural, faz-se necessário o uso de um climatizador para so
 No entanto, para que se possa saber qual o tipo de climatizador ideal para a sala de aula, deve-se primeiramente calcular a carga térmica do ambiente a ser climatizado, e isso é uma tarefa complicada, pois necessita de uma gama de variáveis, tais como área e volume do local, número de pessoas que irão ocupar a sala de aula, número de aparelhos que emitem calor(tal como computadores e aparelhos de TV) , posicionamento geográfico das paredes em relação ao sol, bem como a quantidade de janelas presentes na sala de aula.
 Então para facilitar, utilizou-se de um software que calcula a carga térmica (disponível no site de um fabricante).Para fins de padronização, utilizou-se das medidas das maiores salas de aula da FGA, pois são as que apresentam o maior valor de carga térmica, visto que, os climatizadores devem atender a demanda de todas as salas, e para tal, deve-se escolher ar-condicionados que suportem pelo menos a maior carga térmica presente.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=1]{figuras/interface_calculo_carga_termica.eps}
   \caption{Interface do software que calcula a carga térmica}
@@ -99,7 +99,7 @@ Ao utilizar o software, estimou-se que a carga térmica média de uma sala de au
 Para suprir a demanda, terá que ser utilizado pelo menos 3 ar condicionados do tipo
 Komeco Piso Teto V, 22.000 à 60.000 BTU/h frio, que custa em média 6200 reais em lojas de climatizadores
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=1]{figuras/arcondicionado.eps}
   \caption{Climatizador do tipo Komeco Piso Teto V, 22.000 à 60.000 BTU/h frio}
@@ -124,14 +124,14 @@ Ao utilizar por os dados acima no software, estimou-se que a carga térmica das 
 \subsection{Brises}
 Para a instalação dos brises (quebra Sol) estima-se um valor de R\$ 789,64 reais por metro quadrado ($m^2$). Dessa forma, utilizando a planta e estimando uma altura pouco maior que a janela ocupa e usando a largura da face do prédio que possui mais janelas da sala, obtém-se R\$362.965,92 de custo.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=1]{figuras/tabelapreco.eps}
   \caption{Preço de instalação para o brise}
   \label{fig:preco_brise}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=1]{figuras/brises.eps}
   \caption{Brises}
@@ -140,10 +140,10 @@ Para a instalação dos brises (quebra Sol) estima-se um valor de R\$ 789,64 rea
 
 Apesar dos brises apresentarem um valor alto deve-se levar em consideração que eles podem proporcionar redução no consumo de energia e trazer bem-estar as pessoas, além disso os brises de alumínio apresentam outras vantagens tais como: redução da carga térmica, desempenho térmico e luminoso, permite ventilação e visibilidade, pode ser adaptável a diversos tipos de obras, excelente vida útil, alta resistência a impactos, 100\% reciclável, potencial termoacústico e o alumínio não apresenta toxicidade.  “A previsão de custo considera apenas a execução de obra. Não é avaliada a relação custo-benefício obtido com a economia da eficiência térmica do dispositivo, com a redução do consumo de energia para condicionamento artificial. Em relação a ambientes de trabalho e estudo, pesquisas mostram que o conforto do usuário tem impacto direto na produtividade do trabalhador e aprendizagem de alunos” – Grace Gutierrez, arquiteta urbanista e mestre em Engenharia Civil pela Unicamp. 
 
-\subsection{Jardins verticais}
+\section{Jardins verticais}
 Como previsto, a utilização de jardins verticais além de dar enfoque à questão da sustentabilidade, ameniza o dispêndio de energia, proporciona melhoria na qualidade do ar no interior e nos arredores do edifício, beneficia a acústica do ambiente e é esteticamente vantajoso. Dentre as opções de jardins verticais, tem-se a de fachada verde e a de parede verde:
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=1]{figuras/jardimvertical.eps}
   \caption{Tipos de jardins verticais}
@@ -152,14 +152,14 @@ Como previsto, a utilização de jardins verticais além de dar enfoque à quest
 
 Para avaliação relativa às técnicas, foi utilizado um quadro comparativo entre as opções levantadas para a instalação: 
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=1]{figuras/comparativo_de_paredes_verdes.eps}
   \caption{Comparativo de paredes verdes}
   \label{fig:comparativo_paredes_verdes}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[keepaspectratio=true,scale=1]{figuras/comparativo_de_fachadas_verdes_diretas_e_indiretas.eps}
 \caption{Comparativo de fachadas verdes diretas e indiretas}
@@ -169,38 +169,38 @@ Para a definição da técnica utilizada foram utilizados os seguintes requisito
 A escolha das plantas deve ser de acordo com a incidência de sol, vento e chuva, e de preferência que não necessitem de muitos recursos hídricos e nutricionais. Para reduzir o gasto com manutenção, serão utilizadas plantas perenes, que possuem um ciclo de vida mais longo e plantas epífitas ou rupícolas, que são plantas que se apoiam sobre outras plantas sem retirar seus nutrientes ou plantas que vivem apoiadas sobre muros e paredes.
 Por mais que a escolha da parede viva tenha diversas vantagens, como maior e mais rápida cobertura, variedade de plantas, sua viabilidade econômica é muito baixa. Utilizando orçamentos colhidos com as empresas “ALS Jardins, Paisagismo e Irrigação” e “Vertical Paisagismo”, a despesa da instalação já com os materiais e sistema de irrigação custa por volta de R\$1200 o $m^2$. Já a utilização da fachada verde indireta, com auxílio de treliças e cabos de aço e com o uso de trepadeiras, custa por volta de R\$700 o $m^2$, com materiais e sistema de irrigação. Esta, por sua vez, apesar de possuir uma cobertura em longo prazo, não impõe riscos à estrutura e para reduzir o custo com a manutenção, podem ser usados dois tipos de trepadeira, a “unha de gato” ou a “hera”. Seu sistema de irrigação é automatizado e controlado para reduzir o gasto de água e pode ser integrado ao sistema de captação de água da chuva. Sua instalação será nas paredes em que não serão utilizados os brises, para auxiliar no impedimento do fluxo térmico.
 
-\subsection{Climatização}
+\section{Climatização}
 A estimativa conta apenas com as salas maiores e considerando que as salas menores do piso superior e as salas de informática contem com esses computadores. A estimativa não foi feita contando a necessidade das salas dedicadas à laboratórios do piso inferior pois os tipos de laboratórios não foram definidos pois não faz parte do escopo.  
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[keepaspectratio=true,scale=1]{figuras/tabela_climatizadores.eps}
 \caption{Estimativa de custo dos climatizadores}
 \end{figure}
 
-\subsection{Organização interna}
-\subsubsection{Projeção}
+\section{Organização interna}
+\subsection{Projeção}
 Um dos problemas que o atual prédio de salas de aula da FGA enfrenta é o mau posicionamento dos quadros. Em muitas salas o quadro está muito alto forçando o professor a usar um tablado para alcançar o mesmo e em outras salas está tão baixo que é necessário que o professor só use da metade para cima. Segundo (MORO, 2005) o mobiliário da sala de aula como outros fatores físicos ,são grandes influenciadores no desempenho, segurança, conforto e comportamento dos alunos. Assim (LUZ et al., 2005) afirma que um quadro mal posicionado pode ocasionar o esgotamento dos pequenos músculos ligados aos globos oculares,podendo causar tensão e desconforto em graus mais avançados. 
 Desta forma podemos também fazer um comparativo com a posição dos projetores. Muitas vezes quando o professor utiliza o powerpoint, a imagem projetada apresenta baixa nitidez devido a luminosidade que entra pelas janelas e muitas vezes há complicações para enxergar uma parte da imagem que fica entre o quadro e a parede. Outro agravante é a necessidade de subir em carteiras para ligar e desligar esses equipamentos, o que pode comprometer a segurança dos usuários.
 Para a questão da projeção da imagem, a solução consiste em colocar a lona de projeção e o projetor em um local da sala cuja luminosidade proveniente das janelas não atrapalhe a imagem projetada. Já para ligar o dispositivo, a solução deste problema é a extensão do mecanismo que liga e desliga o projetor para um local próximo ao professor, onde ficam os cabos que conectam o projetor ao computador.
 
-\subsubsection{Tablados}
+\subsection{Tablados}
 Em grande parte das salas de aula as turmas são muito grandes, então os alunos que escolhem um assento no fundo da sala tem uma dificuldade para enxergar o quadro. A solução para esse problema é a construção de um tablado de madeira com vários níveis similar a um anfiteatro, mas adaptado para as dimensões da sala. Dessa forma, as cadeiras continuarão em sua forma matricial porém, em salas grandes como a Superior 1, o tablado deve surgir a partir da 6ª fileira com degraus de 1 metro de comprimento e 13 centímetros de altura.
 
-\subsubsection{Tomadas}
+\subsection{Tomadas}
 Devido ao crescente uso de recursos tecnológicos em sala de aula, tomadas são essenciais. Porém, a localização das tomadas, no fundo e laterais da sala força o aluno que precisa destas, escolher um assento no fundo da sala dificultando sua visão do quadro e do projetor. Para solucionar o problema pode-se incorporar a solução de outro mencionado mais acima. As tomadas podem ser incorporadas ao tablado que será construído para se colocar as carteiras. Assim, pode-se colocar uma tomada perto de cada carteira, aumentando as opções de escolha do lugar onde o alunos deseja se sentar e também a acessibilidade a este recurso.
 
-\subsubsection{Acústica}
+\subsection{Acústica}
 Quanto a acústica, que também é problemática em salas maiores, deverá ser feita a instalação de caixas de som e disponibilização de microfones para os professores. Propõe-se que as caixas de som devam ser instaladas acima do quadro da sala de aula e estará a disposição do professor um microfone para que ele possa ser ouvido por toda a sala.
 
-\subsubsection{Viabilidade}
+\subsection{Viabilidade}
 
 \subsubsection{Tomadas e tablados}
 O bom desempenho dos alunos está diretamente atrelado ao andamento da aula. Aos alunos que se sentam na frente tem a melhor visão do quadro e consequentemente tem melhor desempenho porém os alunos que estão mais distantes do quadro são prejudicados não só pelo impedimento da visão, mas também de locomoção. Além disso, notou-se a necessidade de realocar as tomadas, para que estejam mais acessíveis aos alunos que não sentam próximos às paredes da sala.
 A proposta é a implementação de tablados de madeira que cooperaram para a melhor distribuição dos alunos na sala de aula otimizando o andamento da aula dando visibilidade para todos os alunos presentes, mesmo nas maiores salas. Ainda pensando na comodidade dos alunos o tablado terá em sua estrutura instalação elétrica colocando assim à disposição dos alunos tomadas.
 Quanto às dimensões do tablado deverá ter quatro degraus de 1m (um metro) de comprimento 13cm (treze centímetros) de altura e 5m (cinco metros) de largura. 
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[keepaspectratio=true,scale=1]{figuras/Tablado.eps}
 \caption{Esquematização do tablado}
@@ -212,7 +212,7 @@ A viabilidade da implementação do tablado começa pelo orçamento. A superfíc
 O diferencial dos equipamento é o uso de um quadro panorâmico único e caixas de som. Já para os projetores foi feito um orçamento juntamente com os outros equipamentos. Dessa forma, foi realizada uma pesquisa de mercado para se encontrar os itens citados, que apresentem o melhor custo benefício. As salas maiores para turmas de até 120 alunos receberão o quadro côncavo e dois projetores além da caixa de som. As salas menores e os laboratórios terão apenas um projetor e um quadro branco normal, incluindo uma caixa de som.
 O projetor que melhor se adequou às nossas necessidades foi o projetor LED 2200 lumens BT720 da BTEC. É um aparelho bivolt, possui as principais entradas do mercado como HDMI, VGA entre outras, sua lâmpada de projeção é uma lâmpada led o que gera menos consumo de energia e possui uma vida útil maior. Seu preço está em torno de R\$1200.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[keepaspectratio=true,scale=1]{figuras/equipamentos.eps}
 \caption{Equipamentos}
@@ -220,13 +220,13 @@ O projetor que melhor se adequou às nossas necessidades foi o projetor LED 2200
 
 O quadro que atende a todas as nossas necessidades é o quadro branco cerâmico da DigiSonic. O seu material possui uma alta resistência a manchas e possuindo ainda propriedades magnéticas podendo usar ímãs no mesmo. Possui uma garantia da superfície de 10 anos. O preço que eles cobram por um quadro simples do mesmo material com tamanho de (1,23 x 1,26) está em torno de R\$399. Segue uma imagem do quadro e uma tabela comparativa com o quadro comum.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[keepaspectratio=true,scale=1]{figuras/quadro.eps}
 \caption{quadro}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[keepaspectratio=true,scale=1]{figuras/comparativo_precos_quadros.eps}
 \caption{Preços do quadro comum x quadro proposto}
@@ -234,7 +234,7 @@ O quadro que atende a todas as nossas necessidades é o quadro branco cerâmico 
 
 Por fim a caixa de som que atende as necessidades da sala é a TRC 358 por esta possuir conexão bluetooth, permitindo que qualquer aparelho se conecte a mesma, possuindo conexão para microfone sem fio , além de possuir entrada de áudio componente. Inclui também leitor de cartão de memória. Seu preço está em torno de R\$550.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[scale=1]{figuras/caixa_de_som.eps}
 \caption{Exemplo de caixa de som}
@@ -247,19 +247,19 @@ Assim como foi feito nos tópicos anteriores, as propostas de soluções para o 
 A partir disso nota-se que é fundamental a seleção de materiais que serão utilizados no projeto. Uma metodologia comumente usada para a seleção de materiais na fase inicial é a Metodologia de Pugh. Essa metodologia consiste em comparar os diversos conceitos de produto com que se pretende trabalhar com um conceito de referência facilitando a escolha de um conceito que se sobressaia.
 É feita então, uma análise das vantagens (ou pontos positivos), desvantagens (ou pontos negativos) e equivalência dos conceitos propostos em relação ao conceito de referência. Esta técnica possibilita a escolha do melhor conceito, chamado de conceito “vencedor”, a ser adotado para o produto. A seguir, tem-se o comparativo entre as características dos materiais que embora comumente utilizados, foram descartados do projeto e os materiais que foram escolhidos para suprir uma maior cota de requisitos de um prédio inteligente e sustentável.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[keepaspectratio=true,scale=1]{figuras/materiais_usados_comumente_em_predios.eps}
 \caption{Materiais usados comumente em prédios}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[keepaspectratio=true,scale=1]{figuras/vantagens_e_desvantagens_material1.eps}
 \caption{ Vantagens e desvantagens dos materiais sugeridos 1}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[scale=1]{figuras/vantagens_e_desvantagens_do_material_2.eps}
 \caption{ Vantagens e desvantagens dos materiais sugeridos 2}
@@ -272,7 +272,7 @@ Com o recente senso de responsabilidade ecológica e a aplicação dos conceitos
 
 A tabela a seguir possui um valor estimado para o concreto armado e um tipo de CAD para o ano de 2012, fornecidos pela Gerência de Composições de Custos e Preços da SANAEGO.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[keepaspectratio=true,scale=1]{figuras/tabela_com_precos_concreto.eps}
 \caption{  Preços dos concretos comparados
@@ -281,7 +281,7 @@ A tabela a seguir possui um valor estimado para o concreto armado e um tipo de C
 
 Nota-se que o CAD chega a ser 29,85\% mais caro que o concreto armado, todavia as características de durabilidade e da possibilidade da redução na largura e na quantidade de pilares do CAD fazem dele uma opção com melhor custo benefício. Um exemplo disso é o edifício E-Tower em São Paulo onde o CAD foi a solução técnico-econômica apresentada, em decorrência da necessidade de se reduzir as dimensões dos pilares da fachada Norte que apresentavam elevada carga nos subsolos.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[keepaspectratio=true,scale=1]{figuras/precometais.eps}
 \caption{Custo do metais utilizados}
@@ -289,7 +289,7 @@ Nota-se que o CAD chega a ser 29,85\% mais caro que o concreto armado, todavia a
 
 Apesar de a estrutura metálica ter um custo mais alto, o emprego desse material possui outras vantagens que viabilizam sua utilização. De acordo com a Brandão \& Marmo Engenharia e Construções o aço estrutural foi selecionado em função da importância do cumprimento de um curto prazo de obra e pilares de seções reduzidas em relação à solução em concreto, fundamental para os conceitos e pré-requisitos de estética e layout do projeto.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[keepaspectratio=true,scale=1]{figuras/precojanelas.eps}
 \caption{Custo das janelas a serem utilizadas}
@@ -297,7 +297,7 @@ Apesar de a estrutura metálica ter um custo mais alto, o emprego desse material
 
 A pesquisa mostra que a esquadria de PVC é aproximadamente 60\% mais cara que a de alumínio. Após uma análise de custo benefício, levando em conta os requisitos do projeto, conclui se que apesar das inúmeras vantagens do PVC, a esquadria de alumínio se adaptaria melhor ao orçamento.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[scale=1]{figuras/custotintas.eps}
 \caption{Custo das tintas utilizadas}
@@ -306,206 +306,142 @@ A pesquisa mostra que a esquadria de PVC é aproximadamente 60\% mais cara que a
 
 Constata-se que a tinta ecológica, além de possuir diversas vantagens qualitativas, também oferece um menor custo, tornando ela uma ótima solução para o projeto.
 
-
-
-
-
-
-
-
 \chapter[Smart Grid]{Smart Grid}
+No sistema de geração solar fotovoltaica, os principais dispositivos necessários para a instalação da mini-usina são os descritos abaixo alguns dos dispositivos foram alterados devido não ter certificação INMETRO, foi substituído por dispositivos semelhantes e que substituem com a mesma funcionalidade. OS dispositivos alterados foram a placas canadian de 255w pela placa da mesma marca com 260w o outro dispositivo foi o inversor ABB de 50KW que foi alterado pelo inversor da WEG de 20Kw.
+\textbf{Módulos fotovoltaicos:}Módulos fotovoltaicos: usados para converter a energia luminosa em energia elétrica. O módulo fotovoltaico escolhido para a instalação da mini-usina foi o da marca Canadian, certificado pelo INMETRO pelo número de registro 000581/2016, e possui as características descritas pela figura ~\ref{fig:caracteristica_fotovoltaico_1}.
 
-\section{Energia Solar}
-Inicialmente, para o suprimento de energia do projeto considerou-se três fontes de geração de energia à ser utilizado, sendo elas: Eólica, Gerador movido a biodiesel e a Solar fotovoltaica. A partir daí fez-se um levantamento das vantagens e desvantagens de cada fonte de energia, como pode-se ver nas tabelas ~\ref{table_eolica}, ~\ref{table_solar} e ~\ref{table_biodiesel}.
-
-\begin{table}[h]
+\begin{figure}[!ht]
   \centering
-  \caption{Energia Eólica - Vantagens x Desvantagens}
-  \label{table_eolica}
-  \begin{tabular}{|l|l|}
-    \hline
-    \multicolumn{2}{|c|}{\textbf{Energia Eólica}}                                         \\ \hline
-    \multicolumn{1}{|c|}{\textbf{Vantagens}} & \multicolumn{1}{c|}{\textbf{Desvantagens}} \\ \hline
-    Energia Sustentável                      & Alto Custo                                 \\ \hline
-    Energia Limpa                            & Baixa velocidade do vento na região        \\ \hline
-    Energia Renovável                        & Pouca Área para instalação dos equipamento \\ \hline
-  \end{tabular}
-\end{table}
-
-\begin{table}[h]
-  \centering
-  \caption{Energia Solar Fotovoltaica - Vantagens x Desvantagens}
-  \label{table_solar}
-  \begin{tabular}{|l|c|}
-    \hline
-    \multicolumn{2}{|c|}{\textbf{Energia Solar Fotovoltaica}}                                                \\ \hline
-    \multicolumn{1}{|c|}{\textbf{Vantagens}}             & \textbf{Desvantagens}                             \\ \hline
-    Energia Sustentável                                  & \multicolumn{1}{l|}{Alto custo financeiro}        \\ \hline
-    Energia limpa                                        & \multicolumn{1}{l|}{Geração apenas durante o dia} \\ \hline
-    Simples manutenção                                   & -                                                 \\ \hline
-    Alta incidência solar na região                      & -                                                 \\ \hline
-    Vida útil dos painéis longa                          & -                                                 \\ \hline
-    Tempo de retorno do investimento em cerca de 10 anos & -                                                 \\ \hline
-  \end{tabular}
-\end{table}
-
-
-\begin{table}[h]
-  \centering
-  \caption{Gerador Movido a Biodiesel - Vantagens x Desvantagens}
-  \label{table_biodiesel}
-  \begin{tabular}{|c|l|}
-    \hline
-    \multicolumn{2}{|c|}{\textbf{Gerador Movido a Biodiesel}}                                            \\ \hline
-    \textbf{Vantagens}                                      & \multicolumn{1}{c|}{\textbf{Desvantagens}} \\ \hline
-    \multicolumn{1}{|l|}{Energia Sustentável}               & Alto consumo de biodiesel                  \\ \hline
-    \multicolumn{1}{|l|}{Biocombustível produzido pela FGA} & Rendimento baixo                           \\ \hline
-    -                                                       & Alto custo financeiro                      \\ \hline
-    -                                                       & Manutenção periódica                       \\ \hline
-  \end{tabular}
-\end{table}
-
-Escolheu-se a geração de energia solar fotovoltaica para suprir a demanda do prédio. Como fonte secundária escolheu-se o gerador, sendo este utilizado somente em momento de emergência, visto que as desvantagens do mesmo superam quando utilizado em um período longo de produção.
-
-O Prédio Sustentável e Inteligente necessita das integrações entre as áreas para que o mesmo tenha êxito em oferecer para os estudantes e funcionários um melhor ambiente. Dessa forma, houve uma integração entre as frentes de estrutura (responsável pela parte estrutural e escolha de materiais do projeto) e de Smart Grid (responsável pelo suprimento da demanda energética da FGA) para decisão do melhor local para a instalação da micro-usina solar fotovoltaica. Surgiram-se três opções: nas paredes, nos telhados e na parte terrestre. Porém, estabeleceu-se que a instalação se daria no telhado do prédio, visto que o mesmo possui uma grande área inerte que se tornaria funcional. Outro ponto é a incidência solar que é significativamente maior na parte superior do prédio, pois não há sombreamento devido a algum obstáculo.
-
-Já nas opções descartadas, verificou-se a dificuldade de manutenção quando colocadas nas paredes e no local terrestre, a maior desvantagem seria o uso de uma grande área e também a existência  de uma grande quantidade de animais selvagens no local, visto que a FGA está localizada em uma região em que o cerrado é predominante.
-
-Com a fonte de geração de energia determinada, bem como o local da instalação da micro-usina solar fotovoltaica, fez-se uma estimativa de consumo de energia (Wh) baseada na demanda já requerida pelo prédio atual, com o  objetivo de definir a potência instalada da micro-usina.
-
-Mesmo com a existência de muitas variáveis desconhecidas, que impactam negativamente no valor estimado, os dados conhecidos foram suficiente para estimar a potência instalada, bem como a quantidade de módulos fotovoltaicos necessários para suprir a demanda energética do novo prédio. Ao se fazer essa estimativa com a demanda do prédio já existente têm-se  alta possibilidade de produzir-se uma maior quantidade de energia do que a realmente necessária, visto que os equipamentos elétricos e eletrônicos selecionados pelo subgrupo de instrumentação, são altamente eficientes energeticamente.
-
-Para relembrar o efeito fotovoltaico é resultado da interação da luz com os materiais semicondutores (o mais usado é o silício, pois tem em grande quantidade na natureza) de uma célula fotovoltaica. No interior desta, tal efeito é o responsável pela transformação de energia solar em energia elétrica. A luz solar é composta por fótons que quando incididos no material semicondutor parte deles são absorvidos, excitando os elétrons do material, gerando assim um fluxo de elétrons (corrente). \cite{ideal}
-
-A geração de energia elétrica a partir de placas fotovoltaica é um método bastante difundido atualmente e vem crescendo constantemente. As células solares captam a radiação do sol e através dos fótons geram corrente contínua. Essa corrente passa por um inversor para que seja convertida em corrente alternada com as características da rede (senoidal e frequência de 60Hz). Após passar pelo inversor a eletricidade poderá ser usada para o consumo. Caso a geração exceda o consumo, o restante é inserido na rede e caso o consumo seja maior que a geração solar o restante da energia consumida é oriunda da rede elétrica.
-
-Para a realização da estimativa de consumo de energia, escolheu-se como variáveis: as lâmpadas, computadores e ar-condicionados. As mesmas foram escolhidas visto à facilidade de dimensioná-las. Também estabeleceu-se algumas premissas, como: período de funcionamento das variáveis de 10 horas, ou seja, no período onde possui maior fluxo de pessoas e desconsiderou-se a quantidade de equipamentos não operantes. Essas premissas foram tomadas devido à grande margem de erro que se tem. A seguir, as tabelas ~\ref{fig:lampadas}, ~\ref{fig:computadores} e ~\ref{fig:ar_condicionados} mostram a potência e horário de funcionamento de cada equipamento, bem como a energia consumida por cada um.
-Onde:
-
-\centerline{Qtd= quantidade}
-\centerline{[W]=Watts}
-\centerline{[h]=hora}
-
-\begin{figure}[!h]
-  \centering
-  \includegraphics[keepaspectratio=true,scale=0.3]{figuras/lampadas.eps}
-  \caption{Dimensionamento do consumo de energia das lâmpadas}
-  \label{fig:lampadas}
+  \includegraphics[keepaspectratio=true,scale=0.6]{figuras/caracteristicas_fotovoltaico.eps}
+  \caption{Características do Módulo Fotovoltaico}
+  \label{fig:caracteristica_fotovoltaico_1}
 \end{figure}
 
-\begin{figure}[!h]
+\textbf{Inversores:} dispositivos que transformam a energia de corrente contínua oriunda dos módulos fotovoltaicos em corrente alternada. O inversor escolhido foi o SIW600 T20-44 da WEG, certificado pelo INMETRO pelo número de registro 000078/2017, sendo que suas principais características descritas pela figura ~\ref{fig:caracteristica_fotovoltaico_2}.
+
+\begin{figure}[!ht]
   \centering
-  \includegraphics[keepaspectratio=true,scale=0.3]{figuras/computadores.eps}
-  \caption{Dimensionamento do consumo de energia dos computadores}
-  \label{fig:computadores}
+  \includegraphics[keepaspectratio=true,scale=0.6]{figuras/SmartGrid_Caracteristicas_fotovotaico_2.eps}
+  \caption{Características do Inversor}
+  \label{fig:caracteristica_fotovoltaico_2}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
-  \includegraphics[keepaspectratio=true,scale=0.3]{figuras/ar_condicionados.eps}
-  \caption{Dimensionamento do consumo de energia dos ar-condicionados.}
-  \label{fig:ar_condicionados}
+  \includegraphics[keepaspectratio=true,scale=0.4]{figuras/inversor.eps}
+  \caption{Inversor}
+  \label{fig:inversor}
 \end{figure}
 
-Em seguida, somou-se o consumo de todos os componentes e obteve-se o consumo total de energia por dia no valor de 1.051,12 KWh/dia. Para o cálculo do consumo mensal, considerou-se um total de 22 dias úteis  e, portanto, um consumo mensal de 23.124,64 KWh/mês.
-Obtido o resultado do consumo de energia fez-se uma simulação no software SAM (System Advisor Model) para a realização do dimensionamento do sistema fotovoltaico. Primeiramente, entrou-se com a localização no programa de modo que o mesmo através da latitude e longitude determinasse a incidência solar. Em seguida, escolheu-se o painel solar a ser utilizado (Painel solar da marca Canadian de 255 Wp, eficiência de 16,44\% e 1638x982x40 mm), como pode-se ver na Figura ~\ref{fig:placa}, e escolheu-se o inversor da marca ABB de 50KW.
+\textbf{String Box:} Caixa que contém disjuntores que servem como chaves e dispositivos de proteção como DPS e fusíveis. São necessários 5, uma para cada inversor, sendo que a mesma é conectada antes deste.
+\textbf{Multimedidores de energia:} dispositivos usados para a medição de energia consumida e gerada para cada conjunto de módulos fotovoltaicos e inversor. Ou seja, é instalado um multimedidor após cada inversor, para o caso específico serão usados 5 desses dispositivos.
+\textbf{Medidor bidirecional:} dispositivo usado para medir o consumo de energia do prédio e a energia gerada inserida na rede. Este é um relógio de faturação e é instalado pela distribuidora (CEB, no caso de Brasília).
+\textbf{Suporte para laje:} dispositivo instalado na laje para dar suporte aos módulos fotovoltaicos. O mesmo é constituído de um perfil em “ L “, que fornece inclinação e sustentação para os painéis e por um suporte estruturado que fornece apoio e que aguente o peso do painel. O suporte deve ser de alumínio inoxidável e galvanizado pois o mesmo ficará exposto ao sol e chuva. 
+\textbf{Grampos de fixação:} dispositivos usados para prender os painéis no suporte.
+\textbf{Conectores MC4:} conectores inseridos no final de cada cabo, usados para conectar os módulos fotovoltaicos entre si.
+\textbf{Cabos:} usados para fazer a conexão dos dispositivos.
 
-\begin{figure}[!h]
+\section{Instalação do Sistema Solar Fotovoltaico}
+
+Para a instalação do sistema de geração, os dispositivos são dispostos como segue:
+\begin{itemize}
+  \item Primeiramente monta-se os suportes de alumínio na lage;
+  \item Em seguida os painéis fotovoltaicos são fixados no suporte com os grampos de fixação;
+  \item Os painéis são conectados entre si em série e/ou em paralelo;
+  \item Dois fios, sendo um positivo e um negativo, saem do conjunto de painéis e são ligados na string box;
+  \item Na saída da string box saem também dois fios que são conectados no inversor de frequência;
+  \item Na saída do inversor saem 3 fios (sistema trifásico) que são conectados nos multimedidores e no quadro geral da instalação elétrica do prédio;
+  \item Por fim, o medidor bidirecional é instalado e conectado no quadro geral para faturação da energia consumida e gerada.
+\end{itemize}
+
+A Figura ~\ref{fig:fluxograma}, mostra um fluxograma geral da instalação do sistema solar fotovoltaico.
+
+\begin{figure}[!ht]
   \centering
-  \includegraphics[keepaspectratio=true,scale=0.8]{figuras/placa.eps}
-  \caption{Placa solar marca Canadian.}
-  \label{fig:placa}
-\end{figure}
-
-O Gráfico ~\ref{fig:smartgrid1} a eficiência do inversor com a porcentagem de Potência nominal de saída.
-
-\begin{figure}[!h]
-  \centering
-  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/smartgrid1.eps}
-  \caption{Dados do inversor escolhido.}
-  \label{fig:smartgrid1}
-\end{figure}
-
-Já o gráfico ~\ref{fig:smartgrid2} relaciona a corrente do módulo fotovoltaico com a voltagem do módulo ou seja quanto maior a voltagem menor a corrente elétrica.
-
-\begin{figure}[!h]
-  \centering
-  \includegraphics[keepaspectratio=true,scale=0.4]{figuras/smartgrid2.eps}
-  \caption{ Dados do módulo fotovoltaico.}
-  \label{fig:smartgrid2}
-\end{figure}
-
-Após a escolha do inversor cuja função é converter a corrente contínua gerada pelas placas em corrente alternada, com frequência de 60hz e do painel solar, entrou-se com o valor de potência desejada (116,952KW) e o programa calculou a quantidade necessária de painéis igual a 456. O mesmo também calculou a quantidade necessária de inversores igual a 2 e a área total ocupada pelos painéis solares igual a 706,3 m2, como pode-se ver na Figura ~\ref{fig:estimativa_paineis}. Essa área corresponde somente ao total de painéis solares, sabe-se que para a instalação da micro-usina uma área maior é necessária, pois existem outros fatores que ocupam espaço, como: suporte dos painéis, espaçamento entre as fileiras dos mesmos de modo que uma fileira não faça sombra nas outra, espaço para pessoas caminharem para a realização de manutenção e limpeza dentre outros fatores.
-
-\begin{figure}[!h]
-  \centering
-  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/estimativa_paineis.eps}
-  \caption{Dimensionamento do sistema.}
-  \label{fig:estimativa_paineis}
-\end{figure}
-
-\subsection{Normas da CEB}
-
-O Sistema de Geração distribuída é utilizado por geradores de pequeno porte com geração a partir de fontes renováveis. No projeto do Prédio Sustentável da FGA será utilizado a minigeração distribuída a partir de fontes fotovoltaicas.
-De acordo com os regulamentos da ANEEL a microgeração distribuída pode ser definida como centrais geradoras que utilizam fontes renováveis de energia com uma potência instalada superior a 75 kW e menor ou igual a 5 MW. A Resolução Normativa nº 482/2012 estabelece o sistema de Compensação de Energia Elétrica, que autoriza que a energia excedente gerada pela microgeração distribuída seja injetada na rede da distribuidora para suprir o consumo do prédio. Quando a energia injetada na rede for maior que a energia produzida é gerado um crédito para o consumidor, que pode ser abatido em tarifas posteriores do mesmo, quando a energia injetada for inferior à consumida a unidade consumidora é abastecida pela concessionária local.
-A concessionária que abrange este projeto é a Companhia Energética de Brasília (CEB). Esta estabelece uma resolução normativa \cite{ntd609} que deverá ser seguida para instalação e execução de um projeto de geração distribuída.
-Os procedimentos de acesso estão detalhados no módulo 3 dos Procedimentos de Distribuição (PRODIST). Consistem nas várias etapas necessárias para a obtenção de acesso ao sistema de distribuição.. Para a viabilização do acesso ao sistema elétrico é necessário o cumprimento das etapas de solicitação de acesso e parecer de acesso. Essas etapas são apresentadas de forma sucinta na figura ~\ref{fig:fluxograma}.
-
-\begin{figure}[!h]
-  \centering
-  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/fluxograma_smartgrid.eps}
-  \caption{Etapas de acesso de Microgeradores ao Sistema de Distribuição da CEB-D.}
+  \includegraphics[keepaspectratio=true,scale=0.4]{figuras/instalacao_sistema.eps}
+  \caption{Fluxograma geral da instalação do sistema solar fotovoltaico}
   \label{fig:fluxograma}
 \end{figure}
 
-A solicitação é formalizada através de formulário específico, conforme potência instalada  a ser encaminhado obrigatoriamente à CEB-D pelo acessante que se propõe a interligar sistemas de microgeração e minigeração ao sistema de distribuição. Os formulários e as documentações necessárias reúnem as informações técnicas e básicas para os estudos pertinentes ao acesso, bem como os dados que posteriormente serão enviados a ANEEL para fins de registro da unidade de geração.Caso a documentação entregue esteja incompleta, a solicitação será recusada, devendo o acessante realizar um novo pedido após a regularização das pendências.
+\section{Manutenção}
+Diante da constante busca por uma energia cada vez menos poluente, o uso de placas fotovoltaicas se apresenta como uma excelente alternativa sustentável, proporcionando economia nos gastos elétricos e produção de uma energia mais limpa. No entanto, esse modo de geração de energia demanda uma certa atenção no que diz respeito à manutenção do sistema.
+Especialistas concordam que painéis solares sujos não produzem tanta energia quanto painéis limpos. Essa perda pode chegar até 25\% em alguns casos, de acordo com o laboratório Nacional de Energias Renováveis dos Estados Unidos (NREL)
+Em regra geral, as informações são de realizar a limpeza e manutenção de placa solar anualmente. Porém, em lugares com muita incidência de poeira, como no caso da FGA, é indicada a limpeza a cada 4 meses.A inspeção da parte elétrica do Sistema Fotovoltaico acontece igual a inspeção elétrica comum, fazendo uma inspeção visual. A limpeza pode ser feita com um jato de água ou até mesmo com uma vassoura de cerdas macias. No entanto como a área do prédio da Fga é grande, o interessante é a instalação de um sistema de monitoramento para manter vigilância sobre o desempenho de seus painéis solares.
+Um equipamento que auxilia bastante no momento de identificar possíveis problemas no sistema fotovoltaico são os loggers, que servem para o monitoramento do sistema. É possível verificar o quanto de energia está sendo produzido e outros parâmetros do sistema, permitindo verificar se o equipamento está funcionando corretamente, assim quando o desempenho cair, você saberá que a manutenção é faz necessária.  
+Algumas vantagens de instalar um sistema de monitoramento do painel solar são:
 
-\section{Gerador Movido a Biodiesel}
-
-Nessa introdução será abordado a caracterização do uso do gerador, e a partir dos dados obtidos, será reformulado uma versão para o gerador que funcionará na Faculdade Gama da Universidade de Brasília (FGA/UnB).
-A geração de energia a partir do biodiesel, possui suas vantagens e desvantagens, porém, com a conscientização ambiental crescente da população, e também da situação crítica do planeta em relação ao aquecimento global, a utilização de recursos renováveis em detrimento aos combustíveis fósseis, viabiliza o uso do biodiesel e a seguir será apresentado as suas vantagens e desvantagens \cite{critical}:
-
-Vantagens:
 \begin{itemize}
-  \item Fonte de energia renovável;
-  \item Pode ser feito através de óleo usado;
-  \item Menos emissões de poluentes em relação aos combustíveis fósseis;
+  \item Acompanhar quanta energia está sendo produzida por seus painéis solares.
+  \item Os sistemas de monitorização podem mostrar como o usuário está beneficiando o meio ambiente, como os valores mais baixos de emissões de CO2 em comparação com outros sistemas de energia. Essas estatísticas podem ajudá-lo a obter benefícios fiscais no preenchimento da declaração de imposto de renda.
+  \item Diagnosticar problemas através do sistema de monitoramento. Muitos destes dispositivos irá  dizer quais as áreas do painel solar não estão funcionando corretamente e precisam de reparo.
+  \item Possibilidade de ter  informações sobre os  painéis solares em um display de parede no próprio local ou através da Internet, para ter acesso sem ser no Campus da Fga.
 \end{itemize}
 
-Desvantagens:
-\begin{itemize}
-  \item Existem barreiras técnicas para o uso do biodiesel extensivamente;
-  \item A falta de padrões da indústria torna difícil avaliar o desempenho do combustível e as diferenças de processamento;
-\end{itemize}
+\section{Monitoramento das Placas Fotovoltaicas}
 
-De acordo com o estudo feito por \cite{carlo} com o biodiesel feito a partir do processo de transesterificação etílica do óleo de soja, para um motor gerador à diesel de 4 tempos, com potência nominal de 102,97 kW (140 cv) para 2500 RPM (Tabela 1), a fim de suprir energia para horário de ponta em indústrias, no intuito de reduzir a conta de energia elétrica dessas empresas.
-O estudo feito por \cite{carlo} demonstrou os valores de potência, torque, de consumo específico do biodiesel B100 (100\% de biodiesel), assim como a viabilidade econômica do gerador com biodiesel. Os dados citados são visualizados nas tabelas ~\ref{fig:tabela_motor} e ~\ref{fig:tabela_resultados}.
-
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
-  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/tabela_motor.eps}
-  \caption{Especificações técnicas do motor de teste.}
-  \label{fig:tabela_motor}
+  \includegraphics[keepaspectratio=true,scale=0.3]{figuras/DataLogger.eps}
+  \caption{DataLogger Meteo-40S M11010}
+  \label{fig:datalogger}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
-  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/tabela_resultados.eps}
-  \caption{Valores máximos obtidos.}
-  \label{fig:tabela_resultados}
+  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/SmartGrid_Monitoramento_placas_fotovotaicas_1.eps}
+  \caption{DataLogger Meteo-40S M11010}
+  \label{fig:tabela_datalogger_1}
 \end{figure}
 
-Como podemos perceber, o valor máximo nominal de potência é de 102,97 kW para 2500 RPM, contudo os testes resultaram em 44,1 kW para 2467 RPM, ou seja, fazendo uma relação de proporcionalidade, verifica-se que o rendimento do gerador é de 47,56\%.
-Vemos ainda que o consumo específico mínimo do B100 é de 321,3 g/kWh para 1933 RPM.
-A demanda da potência em um dia para a FGA/UnB, durante seu período útil, das 08 horas da manhã até 18 horas da tarde, é de 105,11 kW, porém com o rendimento do gerador de 47,56\%, é necessário o gerador com capacidade de 155,10 kW.
-De acordo com \cite{regina} o biodiesel de soja possui uma densidade aproximada de 0,877 kg/l, como o consumo específico para 1933 RPM é de 321,3 g/kWh, portanto espera-se que para 2500 RPM o consumo seja de 431,55 g/kWh, isso equivale à 0,47382 l/kWh, ou seja, para 155,10 kW utilizar-se-á 73,50 litros operando em uma hora.
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/SmartGrid_Monitoramento_placas_fotovotaicas_2.eps}
+  \caption{DataLogger Meteo-40S M11010}
+  \label{fig:tabela_datalogger_2}
+\end{figure}
 
+\section{Reciclagem das Placas}
 
+A vice presidente Lisa Krueger, da First Solar, maior fabricante de painéis solares do mundo, afirma , que até 97 por cento dos materiais utilizados na produção dos módulos solares podem ser extraídos e reaproveitados utilizando reciclagem térmica. Porém esse recurso só pode ser utilizado nos módulos sem silício em sua composição.
+Já as placas com silício devem ser divididas manualmente ou mecanicamente. A reciclagem mecânica envolve a remoção de cada componente do painel solar, salvando e reutilizando alguns materiais, podendo chegar até a revenda.  É um processo quimicamente menos eficiente do que a reciclagem térmica , mas ainda apresenta resultados acima de 95\%.
 
+\subsection{Viabilidade}
+Visto que a energia solar está bem consolidada no Brasil tem-se como conclusão que a viabilidade do sistema fotovoltaico,mesmo com um preço razoavelmente alto como mostrado na tabela abaixo.As placas solares tem uma vida útil de 25 anos e como foi descrito a manutenção é relativamente simples, esses pontos facilitam quando deseja-se escolher uma forma de produzir energia sustentável.O custo de instalação é bem alto,porém a conta de energia da FGA é muito cara, custando cerca de R\$40.000,00 (foi solicitado a conta de energia atual,porém não foi possível a aquisição da mesma, dessa forma esse valor é um valor que se aproxima da conta de energia mensal da FGA atual,de acordo com a conta que estará em anexo) de acordo com o dimensionamento feito serão necessários 440 módulos fotovoltaicos para que supra a quantidade energética de 23.000 kwh/mês isto é aproximadamente a metade de energia gasta pela FGA dessa forma a conta energética de 1 prédio se reduziria a R\$20.000,00 visto que as estimativas feitas por um prédio consome a metade.Lembrando que não será possível pagar, “descontar”, os 40 mil reais de energia devido a demanda contratada, que para 1 prédio é por volta de R\$8,200,00 dessa forma a economia se dá pelo restante ou seja R\$ 11.800,00. Assim,considerando que as placas gerem os 23.000kwh/mês o sistema fotovoltaico se paga em um tempo aproximado  de 2 anos e 7 meses.Conclui-se que têm -se um custo benefício devido a longevidade dos sistema fotovoltaicos visto que em 25 anos têm-se uma economia aproximada de R\$3.174.200.
 
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.6]{figuras/SmartGrid_Tabela_de_Custos.eps}
+  \caption{Tabela de Custos}
+  \label{fig:tabela_custos}
+\end{figure}
 
+\section{Gerador Movido a Biodisel}
+Considerando que o gerador à biodiesel será usado apenas em casos de emergência, ou seja, quando houver queda de energia fornecida pela Companhia Energética de Brasília (CEB), e que o dimensionamento necessário já foi feito no Ponto de Controle 2 para um gerador à diesel.
+Para o prédio, dimensionou-se um gerador de 155,10 kW, porém o modelo comercial encontrado mais próximo foi o gerador à diesel modelo C170D6 de 170 kW e 212 kVA (para operação em standby\footnote{Operação Standby: acionado em casos de emergência.}), motor do tipo 6CTA 8.3-G2, visualizado na Figura 01. Ou seja, o gerador comercial mais próximo encontrado está superdimensionado em 8,77\%, o que podemos considerar como um fator de segurança.
 
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.6]{figuras/gerador.eps}
+  \caption{Gerador C170D6}
+  \label{fig:gerador}
+\end{figure}
 
+Nós entramos em contato diversas vezes com duas empresas fornecedoras de geradores, a STEMAC e GELEC ENERGY, porém a primeira não nos retornou e a segunda apresentou apenas seu portfólio de produtos, mas não as especificações técnicas e preços dos mesmos, inclusive do gerador à biodiesel que requeremos para o hipotético projeto na Faculdade do Gama da Universidade de Brasília (FGA/UnB).
+Devido à dificuldade da obtenção dos preços do gerador à diesel, foi feita outra busca para geradores similares a fim de obter um custo desses produtos, e com base nisso foi encontrado um gerador à diesel de modelo Toyama TDMG125SE3 de 125 kVA com preço de R\$ 54.685,09 no site da loja NOWAK, porém serão necessários dois geradores deste modelo, totalizando 250 kVA, isto é, o projeto agora fica superdimensionado em 15,2\%, recordando que podemos usá-lo como fator de segurança. Na Figura ~\ref{fig:gerador2} podemos ver o gerador mencionado e na tabela da figura ~\ref{fig:gerador2_tabela} seus dados técnicos.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.2]{figuras/gerador2.eps}
+  \caption{Gerador Toyama TDMG125SE3}
+  \label{fig:gerador2}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[keepaspectratio=true,scale=0.4]{figuras/SmartGrid_Dados_gerador_biodisel.eps}
+  \caption{Dados Técnicos - Gerador Toyama TDMG125SE3}
+  \label{fig:gerador2_tabela}
+\end{figure}
 
 \chapter[Controle de Acesso]{Controle de Acesso}
 \section{Escolha da Tecnologia}
@@ -548,7 +484,7 @@ diferente e com aparelhos diferentes. Desta forma, cada área tem suas particula
 Para o controle de frequência nas aulas, será utilizado o seguinte aparelho (apresentado anteriormente no Ponto de Controle 1).
 O funcionamento dele acontece independente de sinal de WiFi e o aparelho é de porte único do professor.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.45]{figuras/freq.eps}
   \caption{Aparelho Para Controle de Frequência}
@@ -585,7 +521,7 @@ Este leitor RFID possui as ferramentas para um projeto de controle de acesso ou 
 
 Este componentes vai ser conectado a o microcontrolador através dos pinos especiais sda(pino 44), sck(pino 20), miso(pino 22) e mosi(pino 21).
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.5]{figuras/rfid.eps}
   \caption{Módulo Leitor Rfid Mfrc522 Mifare}
@@ -600,7 +536,7 @@ Este módulo suporta as redes 802.11 b/g/n, muito usadas atualmente, podendo tra
 A comunicação serial pelo protocolo RS-232, irá utilizar as portas RX(pino 45) e TX(pino 46) do microcontrolador que possuem suporte para este protocolo de comunicação TX e diretamente a protoboard. Ele será utilizado para enviar as informações coletadas pelo dispositivo ao banco de dados na rede.
 \pagebreak
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.5]{figuras/wifi.eps}
   \caption{Módulo Leitor Rfid Mfrc522 Mifare}
@@ -612,7 +548,7 @@ Este é um display LCD de 16 colunas por 2 linhas, backlight azul e escrita bran
 
 A interface com microcontrolador é muito simples, sendo basicamente 4 pinos digitais de dados e 2 pinos digitais de controle. Confira no link o Datasheet Display LCD 16x2. O display será utilizado para mostrar a matrícula e o nome do dono da carteirinha, possibilitar ao professor selecionar a disciplina que deseja passar a chamada e outras informações que forem necessárias.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.45]{figuras/lcd.eps}
   \caption{Display LCD}
@@ -623,7 +559,7 @@ A interface com microcontrolador é muito simples, sendo basicamente 4 pinos dig
 \subsection{Teclado de Película 4x4}
 O Teclado Matricial 4x4 é um componente utilizado para entrada de dados. Ele possui 16 teclas dispostas em 4 linhas x 4 colunas, e um conector de 8 pinos para ligação. Ele necessita de 8 pinos digitais para funcionar, sendo 4 configurados como saída(OUTPUT) e 4 como leitura(INPUT). Os pinos de saída são acionados como um contador em anel, elevando um pinos em nível alto e os demais em nível baixo, após um tempo determinado outro pino fica em nível alto e o resto em nível baixo e o ciclo se repete para cada pino. Cada pino é conectado em uma coluna da matriz e os pinos de leitura lêem as quatro linhas individualmente. Desta forma quando um botão é pressionado,  é possível determinar a linha e coluna da matriz.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.45]{figuras/teclado.eps}
   \caption{Teclado de Película 4x4}
@@ -633,7 +569,7 @@ O Teclado Matricial 4x4 é um componente utilizado para entrada de dados. Ele po
 Módulo carregador de baterias TP4056 para baterias de lítio, possibilita que as baterias sejam recarregadas sem a necessidade de removê-las do circuito. Módulo se conecta diretamente com a bateria e carrega a mesma quando é conectado um carregador USB. A corrente é cortada quando detecta que a carga está completa e possui um led indicador de carregamento. Contudo para aferir o nível de carga da bateria, será utilizado um pino analógico do microcontrolador. Medindo o nível de tensão na bateria será possível  informar o  nível de  carga através do display LCD, o que é mais prático.
 
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.45]{figuras/carregador.eps}
   \caption{Carregador de Bateria Lipo}
@@ -642,7 +578,7 @@ Módulo carregador de baterias TP4056 para baterias de lítio, possibilita que a
 \subsection{Bateria}
 Serão utilizadas duas baterias 3.7V 2000mAh em série para alimentar o dispositivo. A tensão fornecida será 7.4~6V e uma autonomia de cerca de 8 horas em uso á 157 horas (cerca de 6 dias) em \textit{standby}. Todos os componentes têm uma tensão de operação de 3.3V, apenas o display LCD opera com 5V. Para regular a tensão, será utilizado CI regulador de tensão 7805 para o display e o LM1117T para os demais.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.7]{figuras/bateria.eps}
   \caption{Bateria 2000mAh}
@@ -653,7 +589,7 @@ O microcontrolador escolhido foi o ATmega1280 em função de ser o microcontrola
 
 Em seguida, foram testados e pesquisados dados de tensão, autonomia e corrente, devido ser um aparelho portátil e de funcionamento independente da internet e sem estar ligado na tomada. Todos os dados estão apresentados na tabela a seguir.
 
-\begin{table}[!h]
+\begin{table}[!ht]
   \centering
   \caption{Dados dos Componentes - Aparelho de Frequência}
   \begin{tabular}{|l|c|c|c|}
@@ -676,7 +612,7 @@ Com base nos dados da tabela anterior, pode-se afirmar que a autonomia da bateri
 
 Por fim, em termos econômicos, obtivemos o seguintes dados de custos:
 
-\begin{table}[!h]
+\begin{table}[!ht]
   \centering
   \caption{Custos dos Componentes - Aparelho de Frequência}
   \label{my-label}
@@ -812,7 +748,7 @@ Serão utilizados ar-condicionados do tipo split inverter, o qual o compressor n
 Para as salas de aula menores, serão utilizados aparelhos com 12.000 BTUs de potência, que custa em torno de R\$1.200,00. Pela tabela do Procel o ar-condicionado de 12.000 BTUs split consume aproximadamente 193,76 KW/h.
 Para as salas maiores, serão utilizados ar-condicionados mais potentes, devido a grande quantidade de alunos nas aulas e o tamanho das salas. Estes equipamentos terão 58000 BTUs de potência, que custam R\$5000,00 e pela tabela de do Procel ele consome cerca de 679,20 KW/h de energia elétrica.
 
-\begin{table}[!h]
+\begin{table}[!ht]
   \centering
   \caption{Soluções de Ambientação da Sala}
   \label{my-label}
@@ -839,7 +775,7 @@ As mesas interativas possuem suporte para diferentes sistemas operacionais, como
 
 Além dos quadros convencionais, um quadro interativo será utilizado para auxiliar o professor, tornando as aulas expositivas mais dinâmicas. Atualmente existem diversos fabricantes de quadros interativos, com diferentes tamanhos e funcionalidades, incluindo até, em alguns casos, suites de softwares específicos para aquele determinado produto. Os dispositivos possuem diversas opções de conectividade, possibilitando a interação com computadores pessoais, dispositivos mobile e até mesmo com a mesa inteligente do professor. O custo deste equipamento varia entre R\$4.000,00 e R\$8.000,00.
 
-\begin{table}[!h]
+\begin{table}[!ht]
   \centering
   \caption{Soluções de Digitalização e Integração de Equipamentos para Aula}
   \label{my-label}
@@ -879,7 +815,7 @@ O sensor de movimento será utilizado para o controle de luz do ambiente, fazend
 
 Dispositivo utilizado na lâmpada responsiva, que variam a resistência elétrica de acordo com a intensidade luminosa do local. Ele possui dois diodos de junção, o coletor e o emissor; a base é incluída quando tem-se polarização ou controle elétrico. Quando recebem fótons, o conjunto base-coletor cria lacunas na sua vizinhança e a tensão faz com que as lacunas sejam transmitidas para o emissor. Enquanto isso os elétrons do emissor sao tranferidos para a base, aumentando a corrente nela e, consequentemente, variando a corrente no coletor. Assim, com a base desconectada, a corrente dependerá da intensidade luminosa incidente. Um fototransistor 3mm custa em média R\$5,00.
 
-\begin{table}[!h]
+\begin{table}[!ht]
   \centering
   \caption{Soluções de Sensores}
   \label{my-label}
@@ -898,7 +834,7 @@ Dispositivo utilizado na lâmpada responsiva, que variam a resistência elétric
 
 A sala de controle será a central de todos os equipamentos eletrônicos internos do prédio. Responsável pelo processamento e armazenamento dos dados, fará o envio de sinais para os equipamentos (fazendo assim o controle dos mesmos) e também a administração da rede do prédio. Ela conterá principalmente o maquinário necessário para o controle e supervisão dos demais equipamentos, contendo servidores, um network switch (ponto central no qual todos os computadores ou dispositivos são ligados a ele para ter acesso a outros computadores ou dispositivos, através da rede), e telas para monitoramento das funções do prédio.
 
-\begin{table}[!h]
+\begin{table}[!ht]
   \centering
   \caption{Sala de Controle}
   \label{my-label}
@@ -918,7 +854,7 @@ Esta comunicação em tempo real, possibilita a manutenção preditiva dos equip
 
 O cerne do projeto de automação do novo predio da FGA será a integração entre os diversos dispositivos de automação presentes no projeto. Para que isto seja possível, será implantada uma sala de controle central, representada por um diagrama de blocos na figura ~\ref{fig:sala_cont}. Nesta sala estarão os servidores responsáveis pelo envio de sinais de controle, pelo processamento e armazenamento dos dados de \textit{feedback} fornecidos pelos equipamentos e sensores do prédio, e pela manutenção da rede de internet de todo o edifício.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.4]{figuras/automacao_sala_de_controle.eps}
   \caption{Sala de Controle}
@@ -927,14 +863,14 @@ O cerne do projeto de automação do novo predio da FGA será a integração ent
 
 A conexão dos dispositivos com a sala de controle é representada nas figuras ~\ref{fig:plant_sup} e ~\ref{fig:plant_inf}.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.4]{figuras/planta_eletronica_superior.eps}
   \caption{Planta Eletrônica Piso Superior}
   \label{fig:plant_sup}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.3]{figuras/planta_eletronica_inferior.eps}
   \caption{Planta Eletrônica Piso Inferior}
@@ -943,14 +879,14 @@ A conexão dos dispositivos com a sala de controle é representada nas figuras ~
 
 Além de enviar e receber dados da sala de controle, alguns dispositivos se comunicam uns com os outros, como no caso das salas de aula, onde a mesa inteligente controla todos os dispositivos de automação presentes nas salas, funcionando como um painel de controle central pada cada uma delas, como é mostrado nas figuras ~\ref{fig:sala_aula} e ~\ref{fig:sala_comp}.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.3]{figuras/instrumentacao_da_sala.eps}
   \caption{Sala de Aula}
   \label{fig:sala_aula}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.3]{figuras/automacao_sala_de_computadores.eps}
   \caption{Sala de Computadores}
@@ -1056,7 +992,7 @@ Para a arquitetura de software da aplicação web que será interligada ao uso d
 
 MVC é um padrão de arquitetura de software que divide a representação da informação da interação do usuário com ele. Desta forma, alterações feitas na interface não afetam a manipulação de dados, e estes poderão ser reorganizados sem alterar a interface.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.45]{figuras/MVC.eps}
   \caption{Arquitetura Model-View-Controller}
@@ -1068,7 +1004,7 @@ View: A camada de interação com o usuário e também de exibição de dados. E
 Controller: É responsável por receber todas as requisições do usuário. Seus métodos, chamados actions, são responsáveis pela página, controlando qual model usar e qual view será mostrado ao usuário.
 Neste projeto, tanto o back-end quanto o front-end farão uso do framework Rails. Sua organização de pastas segue a organização descrita na figura ~\ref{fig:pastas}:
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.4]{figuras/pastas.eps}
   \caption{Estrutura de Diretórios do Aplicativo}
@@ -1083,7 +1019,7 @@ A View é a interface de usuário, exibe informações ao usuário, e responde �
 A ViewModel é a classe que estabelece a conexão entre View e Model, atualizando os dados na Model, que foram modificados através dos eventos na View.
 Os testes são realizados sobre a ViewModel, pois é ela que possui toda a lógica necessária para que a View possa funcionar de forma esperada, e a ViewModel não tem conhecimento sobre nada na View.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.6]{figuras/MVVM.eps}
   \caption{Arquitetura MVVM}
@@ -1102,7 +1038,7 @@ Um protótipo de alta fidelidade é um artefato que se assemelha ao produto fina
 
 O protótipo de alta fidelidade do aplicativo foi estabelecido de acordo com as imagens que estão disponíveis no anexo \ref{protot}.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \centering
   \includegraphics[keepaspectratio=true,scale=0.6]{figuras/prot-0.eps}
   \caption{Protótipo do Login do Aplicativo}
